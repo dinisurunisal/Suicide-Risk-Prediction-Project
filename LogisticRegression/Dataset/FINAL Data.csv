@@ -1,4 +1,4 @@
-Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civil Status,Education Level,Reason,Lifetime Psychiatric Hospitalizations,Past Suicide Attempts,Any suicidal thoughts mentioned,Self-Injurious Behaviour,Psychiatric Disorders,Past Illnesses ,Alcohol/ drug Consumption,Anger,Sleep Problem,Social Iscolation,Sad/ Weary,Humilated
+Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civil Status,Education Level,Reason,Lifetime Psychiatric Hospitalizations,Past Suicide Attempts,Any suicidal thoughts mentioned,Self-Injurious Behaviour,Psychiatric Disorders,Past Illnesses,Alcohol/ drug Consumption,Anger,Sleep Problem,Social Iscolation,Sad/ Weary,Humilated
 2018,0,30,F,Buddhist,Sinhalese,Administrative Executive Managerial & related workers,Unmarried,From Grade 1 to 7,Asthma,0,0,0,0,None,Asthma,None,0,0,0,0,0
 2018,0,91,F,Islam,Muslim,Sales worker,Married,University Degree or above,Alzheimer's disease,0,0,0,0,None,Other,None,0,1,0,0,0
 2018,0,85,M,Buddhist,Sinhalese,Security Personnel,Married,University Degree or above,Stroke/Chronic diseases & Physical disabilities,0,0,0,0,None,Diabetes,None,0,1,0,0,0
@@ -46,7 +46,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,1,39,M,Buddhist,Sinhalese,Unemployed persons,Married,Passed Grade 8,Addiction to narcotic drugs,0,0,1,0,None,Other,Frequent,0,1,0,0,0
 2016,1,69,F,Buddhist,Sinhalese,Unemployed persons,Married,From Grade 1 to 7,Chronic diseases & Physical disabilities,0,0,1,1,None,Kidney Disease,None,0,1,0,1,0
 2015,1,60,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,From Grade 1 to 7,Harrasment by the husband & family disputes,0,0,1,0,Depression,Diabetes,Moderate,0,1,0,1,0
-2017,1,34,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers  ,Married,Passed G.C.E (O/L),Other Reasons,1,0,1,0,PTSD,Asthma,Moderate,1,1,1,0,0
+2017,1,34,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,Passed G.C.E (O/L),Other Reasons,1,0,1,0,PTSD,Asthma,Moderate,1,1,1,0,0
 2016,1,39,F,Buddhist,Sinhalese,Unemployed persons,Widow,Passed G.C.E (O/L),Chronic diseases & Physical disabilities,0,0,1,1,Bipolar Disorder,COPD,Frequent,1,1,1,1,0
 2016,1,14,F,Buddhist,Sinhalese,Student,Unmarried,Passed G.C.E (O/L),Using disappointment frustration caused through love affairs,0,1,0,1,Bipolar Disorder,Unknown,None,0,1,1,1,0
 2018,0,59,M,Christian,Burger,Workers not classfied by occupation ,Unmarried,Other,Road Accident,0,0,0,0,None,Unknown,None,0,0,0,0,0
@@ -64,10 +64,10 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,1,59,M,Buddhist,Sinhalese,Pensioners,Married,Passed G.C.E (O/L),Chronic diseases & Physical disabilities,0,0,1,0,Depression,Cancer,Moderate,1,1,0,0,1
 2018,0,40,F,Christian,Burger,Unemployed persons,Unmarried,Passed G.C.E (A/L),Natural Death,1,0,1,0,None,Unknown,None,1,1,0,0,0
 2018,1,68,M,Buddhist,Sinhalese,Pensioners,Married,Passed Grade 8,Harrasment by the husband & family disputes,1,0,1,0,PTSD,Diabetes,None,1,1,1,0,0
-2016,1,70,M,Buddhist,Sinhalese,Workers not classfied by occupation,Unmarried,From Grade 1 to 7,Ill-treatment by the children,0,0,0,0,Depression,Chronic pain,None,0,1,0,1,1
+2016,1,70,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Unmarried,From Grade 1 to 7,Ill-treatment by the children,0,0,0,0,Depression,Chronic pain,None,0,1,0,1,1
 2015,1,29,M,Buddhist,Sinhalese ,Unemployed persons,Married,Passed G.C.E (O/L),Other Reasons,0,0,0,0,None,Kidney Disease,None,1,1,0,0,0
 2018,0,82,F,Hindu,Tamil,Police,Widow,From Grade 1 to 7,Natural Death,1,0,0,0,None,Unknown,None,0,1,0,0,0
-2017,1,26,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers ,Unmarried,Passed Grade 8,Other Reasons,0,0,0,1,Depression,Other,Frequent,0,1,0,0,0
+2017,1,26,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,Passed Grade 8,Other Reasons,0,0,0,1,Depression,Other,Frequent,0,1,0,0,0
 2018,0,59,F,Buddhist,Sinhalese,Professional Technical & related workers (Doctors/Engineers/Accountants/ Teachers/Authors/ Photographers),Married,University Degree or above,Other Reasons,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2016,1,53,M,Buddhist,Sinhalese,Service workers (Cooks/Tailors/Barbers/ etc),Married,Passed Grade 8,Addiction to narcotic drugs,0,1,1,0,None,Unknown,Frequent,1,1,1,0,1
 2018,0,78,F,Christian,Sinhalese,Clerical & related workers (Stenographers/ Typists etc),Widow,From Grade 1 to 7,Mental Disorders,0,1,0,0,Schizophrenia,Unknown,None,0,0,0,1,0
@@ -79,7 +79,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,63,F,Buddhist,Sinhalese,Service workers (Cooks/Tailors/Barbers/ etc),Married,Passed G.C.E (O/L),Asthma,0,0,0,0,None,Asthma,None,0,0,0,0,1
 2018,0,21,F,Islam,Muslim,Sales worker,Unmarried,Other,Stroke/Chronic diseases & Physical disabilities,0,0,0,0,None,Diabetes,None,0,0,0,0,0
 2018,0,59,F,Islam,Muslim,Sales worker,Married,Passed G.C.E (A/L),Natural Death,0,0,0,0,None,Unknown,None,0,1,0,0,0
-2018,1,43,M,Buddhist,Sinhalese,Workers not classfied by occupation,Married,Passed Grade 8,Harrasment by the husband & family disputes,1,0,0,0,None,Other,Frequent,1,1,1,1,1
+2018,1,43,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Married,Passed Grade 8,Harrasment by the husband & family disputes,1,0,0,0,None,Other,Frequent,1,1,1,1,1
 2018,1,77,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,Passed Grade 8,Chronic diseases & Physical disabilities,1,0,1,0,Depression,Cancer,Moderate,1,1,0,1,1
 2018,0,39,F,Hindu,Tamil,Armed Services,Widow,University Degree or above,Diabetes,0,0,0,0,None,Diabetes,None,0,0,0,0,0
 2018,1,81,F,Buddhist,Sinhalese,Professional Technical & related workers (Doctors/Engineers/Accountants/ Teachers/Authors/ Photographers),Married,Other,Mental Disorders,1,0,1,1,PTSD,Unknown,None,1,0,0,0,0
@@ -139,11 +139,11 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2016,1,38,F,Buddhist,Sinhalese,Unemployed persons,Married,Passed Grade 8,Harrasment by the husband & family disputes,1,0,0,0,None,COPD,None,0,1,1,1,1
 2018,0,80,M,Christian,Burger,Security Personnel,Divourced,Passed G.C.E (A/L),Other Reasons,0,0,0,0,Depression,Unknown,None,1,0,0,0,0
 2018,0,51,F,Christian,Burger,Administrative Executive Managerial & related workers,Divourced,Passed Grade 8,Natural Death,0,1,1,0,None,Unknown,None,0,1,0,0,0
-2016,1,19,M ,Buddhist,Sinhalese,Student,Unmarried,Passed G.C.E (O/L),Problems caused with the elders,0,0,1,1,Bipolar Disorder,Asthma,None,1,1,1,1,0
+2016,1,19,M,Buddhist,Sinhalese,Student,Unmarried,Passed G.C.E (O/L),Problems caused with the elders,0,0,1,1,Bipolar Disorder,Asthma,None,1,1,1,1,0
 2015,1,80,M,Buddhist,Sinhalese ,Unemployed persons,Married,From Grade 1 to 7,Mental Disorders,0,1,1,0,Depression,Heart Diseases,None,1,1,1,1,0
 2018,0,72,M,Hindu,Tamil,Professional Technical & related workers (Doctors/Engineers/Accountants/ Teachers/Authors/ Photographers),Married,Passed G.C.E (A/L),Stroke/Chronic diseases & Physical disabilities,0,0,0,0,None,Chronic pain,None,0,0,0,0,0
 2017,1,27,M,Buddhist,Sinhalese ,Administrative Executive Managerial & related workers,Married,Passed G.C.E (O/L),Harrasment by the husband & family disputes,0,0,1,1,None,Heart Diseases,None,1,0,1,0,1
-2016,1,62,M ,Buddhist,Sinhalese,Unemployed persons,Married,Passed Grade 8,Mental Disorders,1,1,0,0,Bipolar Disorder,Asthma,Frequent,1,1,0,1,1
+2016,1,62,M,Buddhist,Sinhalese,Unemployed persons,Married,Passed Grade 8,Mental Disorders,1,1,0,0,Bipolar Disorder,Asthma,Frequent,1,1,0,1,1
 2018,0,88,F,Christian,Burger,Administrative Executive Managerial & related workers,Widow,Passed G.C.E (A/L),Natural Death,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2018,0,57,M,Other,Burger,Security Personnel,Divourced,Passed Grade 8,Other Reasons,0,0,0,0,None,Unknown,Moderate,0,0,0,0,0
 2018,1,23,M,Buddhist,Sinhalese,Student,Unmarried,Passed G.C.E (O/L),Using disappointment frustration caused through love affairs,1,0,1,0,Depression,Unknown,None,0,1,1,1,1
@@ -164,7 +164,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,84,M,Islam,Muslim,Clerical & related workers (Stenographers/ Typists etc),Unmarried,Passed Grade 8,Road Accident,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2016,1,28,F,Buddhist,Sinhalese,Sales worker,Unmarried,Passed G.C.E (O/L),Other Reasons,0,0,1,0,PTSD,Chronic pain,None,0,1,0,1,0
 2018,0,93,F,Hindu,Tamil,Pensioners,Widow,University Degree or above,Ischemic heart disease,0,0,1,0,None,Unknown,None,0,0,0,0,0
-2018,1,42,M,Buddhist,Sinhalese,Workers not classfied by occupation,Married,Passed G.C.E (O/L),Economic problems (Poverty indebtedness),1,0,1,1,Depression,Other,Frequent,1,1,1,1,0
+2018,1,42,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Married,Passed G.C.E (O/L),Economic problems (Poverty indebtedness),1,0,1,1,Depression,Other,Frequent,1,1,1,1,0
 2017,1,35,F,Buddhist,Sinhalese ,Unemployed persons,Married,Passed G.C.E (O/L),Harrasment by the husband & family disputes,1,0,0,1,None,Other,None,1,1,1,1,1
 2018,0,41,F,Christian,Burger,Clerical & related workers (Stenographers/ Typists etc),Widow,From Grade 1 to 7,Natural Death,0,0,0,0,None,Other,None,0,0,0,0,0
 2017,1,96,M,Buddhist,Sinhalese ,Pensioners,Unmarried,Passed Grade 8,Other Reasons,0,0,0,1,None,Heart Diseases,None,1,0,1,1,0
@@ -176,7 +176,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,1,73,M,Buddhist,Sinhalese,Professional Technical & related workers (Doctors/Engineers/Accountants/ Teachers/Authors/ Photographers),Unmarried,School not attended,Chronic diseases & Physical disabilities,0,0,1,1,None,Heart Diseases,None,1,0,1,1,1
 2018,0,46,F,Islam,Muslim,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,From Grade 1 to 7,Ischemic heart disease,0,0,0,0,Schizophrenia,Unknown,None,0,0,0,0,0
 2018,0,47,F,Hindu,Tamil,Production process workers Craftsman & related workers transport equipment operators & labourers,Married,Passed G.C.E (A/L),Natural Death,0,0,0,0,None,Unknown,None,0,1,0,0,0
-2017,1,30,M,Buddhist,Sinhalese ,Production process workers Craftsman & related workers transport equipment operators & labourers,Married,Passed grade 8,Other Reasons,1,0,1,1,Depression,Kidney Disease,Moderate,1,1,1,0,1
+2017,1,30,M,Buddhist,Sinhalese ,Production process workers Craftsman & related workers transport equipment operators & labourers,Married,Passed Grade 8,Other Reasons,1,0,1,1,Depression,Kidney Disease,Moderate,1,1,1,0,1
 2017,1,73,M,Islam,Muslim,Sales worker,Unmarried,From Grade 1 to 7,Chronic diseases & Physical disabilities,1,0,1,0,Depression,COPD,None,0,1,0,1,0
 2018,0,87,F,Christian,Burger,Pensioners,Widow,Other,Ischemic heart disease,0,1,0,0,None,Heart Diseases,None,0,0,0,0,0
 2017,1,66,F,Buddhist,Sinhalese ,Unemployed persons,Married,Passed Grade 8,Other Reasons,0,0,0,1,None,Unknown,None,0,0,0,1,0
@@ -190,9 +190,9 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2017,1,84,M,Buddhist,Sinhalese ,Unemployed persons,Married,Passed Grade 8,REASON NOT MENTIONED,0,0,0,0,None,Other,None,1,1,0,0,0
 2018,0,47,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,From Grade 1 to 7,Diabetes,0,0,0,0,None,COPD,None,0,0,0,0,0
 2017,1,34,M,Buddhist,Sinhalese ,Administrative Executive Managerial & related workers,Married,Passed G.C.E (O/L),Harrasment by the husband & family disputes,1,0,1,0,Depression,Other,Frequent,1,1,0,1,1
-2018,1,61,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers ,Married,Other,Chronic diseases & Physical disabilities,0,0,0,1,None,Heart Diseases,Moderate,0,1,0,0,0
+2018,1,61,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,Other,Chronic diseases & Physical disabilities,0,0,0,1,None,Heart Diseases,Moderate,0,1,0,0,0
 2018,0,83,M,Christian,Burger,Administrative Executive Managerial & related workers,Unmarried,School not attended,Chronic kidney disease,0,0,0,0,None,Kidney Disease,None,0,0,1,0,0
-2018,1,31,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers ,Unmarried,Passed G.C.E (O/L),Using disappointment frustration caused through love affairs,1,0,0,0,Depression,Other,Moderate,1,1,0,1,1
+2018,1,31,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,Passed G.C.E (O/L),Using disappointment frustration caused through love affairs,1,0,0,0,Depression,Other,Moderate,1,1,0,1,1
 2018,1,29,M,Buddhist,Sinhalese,Service workers (Cooks/Tailors/Barbers/ etc),Married,Passed Grade 8,Mental Disorders,0,0,0,0,Depression,Other,None,0,1,1,1,0
 2018,0,82,M,Christian,Burger,Administrative Executive Managerial & related workers,Widow,University Degree or above,Chronic kidney disease,0,0,0,0,None,Kidney Disease,None,0,0,1,0,0
 2016,1,70,M,Buddhist,Sinhalese,Pensioners,Married,From Grade 1 to 7,Other Reasons,0,0,0,0,None,Asthma,None,1,1,0,0,0
@@ -202,7 +202,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2017,1,39,M,Buddhist,Sinhalese ,Production process workers Craftsman & related workers transport equipment operators & labourers,Unmarried,Passed G.C.E (O/L),Economic problems (Poverty indebtedness),1,0,1,0,Other,Diabetes,Moderate,1,1,1,0,1
 2017,1,53,M,Buddhist,Sinhalese ,Workers not classfied by occupation ,Married,Passed G.C.E (O/L),Other Reasons,0,0,0,0,None,Chronic pain,None,0,1,0,0,0
 2018,0,39,F,Christian,Burger,Armed Services,Unmarried,University Degree or above,Asthma,0,0,0,0,None,Asthma,Moderate,0,1,0,0,0
-2018,1,54,M,Buddhist,Sinhalese,Workers not classfied by occupation,Married,Passed Grade 8,Chronic diseases & Physical disabilities,0,0,1,1,None,Diabetes,None,0,1,1,0,1
+2018,1,54,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Married,Passed Grade 8,Chronic diseases & Physical disabilities,0,0,1,1,None,Diabetes,None,0,1,1,0,1
 2015,1,65,M,Hindu,Tamil,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,From Grade 1 to 7,Chronic diseases & Physical disabilities,1,0,1,0,None,Heart Diseases,None,0,1,1,0,1
 2018,0,17,M,Buddhist,Sinhalese,Student,Unmarried,Passed Grade 8,Mental Disorders,0,1,0,0,Depression,Unknown,None,1,0,0,0,1
 2017,1,72,M,Buddhist,Sinhalese ,Unemployed persons,Married,Passed Grade 8,Mental Disorders,0,1,1,0,Depression,Other,Frequent,0,1,1,1,0
@@ -224,7 +224,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2015,1,55,M,Buddhist,Sinhalese ,Professional Technical & related workers (Doctors/Engineers/Accountants/ Teachers/Authors/ Photographers),Married,University Degree or above,Mental Disorders,1,1,1,1,Depression,Other,None,1,1,1,1,1
 2018,0,26,M,Other,Burger,Administrative Executive Managerial & related workers,Divourced,Passed G.C.E (A/L),Diabetes,0,0,0,0,None,Diabetes,None,0,0,0,0,0
 2018,1,45,M,Hindu,Tamil,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,School not attended,Addiction to narcotic drugs,1,0,0,0,Depression,Kidney Disease,Frequent,1,0,0,1,0
-2018,1,55,M,Buddhist,Sinhalese,Workers not classfied by occupation,Married,Passed Grade 8,Harrasment by the husband & family disputes,1,0,0,0,Depression,Other,Moderate,0,1,0,1,0
+2018,1,55,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Married,Passed Grade 8,Harrasment by the husband & family disputes,1,0,0,0,Depression,Other,Moderate,0,1,0,1,0
 2017,1,56,F,Buddhist,Sinhalese ,Unemployed persons,Married,From Grade 1 to 7,Other Reasons,1,0,0,0,BPD,Other,None,0,1,1,0,0
 2018,1,23,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,Passed Grade 8,Harrasment by the husband & family disputes,1,0,0,1,None,Cancer,Moderate,1,1,1,1,1
 2018,0,79,M,Buddhist,Sinhalese,Unemployed persons,Married,Passed G.C.E (A/L),Diabetes,0,0,0,0,None,Diabetes,Moderate,0,1,1,0,0
@@ -299,7 +299,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2015,1,49,M,Buddhist,Sinhalese ,Workers not classfied by occupation ,Married,Passed Grade 8,Economic problems (Poverty indebtedness),1,0,1,0,Schizophrenia,Other,None,1,1,1,1,1
 2018,1,25,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,From Grade 1 to 7,Addiction to narcotic drugs,1,0,1,1,Depression,Diabetes,Frequent,1,1,1,1,1
 2018,1,59,F,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,From Grade 1 to 7,Mental Disorders,1,0,1,1,Depression,Unknown,None,0,1,1,1,1
-2016,1,24,M ,Hindu,Tamil,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,School not attended,Harrasment by the husband & family disputes,1,0,0,0,None,HIV/AIDS,Frequent,1,1,0,0,1
+2016,1,24,M,Hindu,Tamil,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,School not attended,Harrasment by the husband & family disputes,1,0,0,0,None,HIV/AIDS,Frequent,1,1,0,0,1
 2018,0,67,F,Christian,Burger,Pensioners,Unmarried,Other,Asthma,0,0,0,0,None,Asthma,None,0,1,0,0,0
 2018,1,74,M,Buddhist,Sinhalese,Unemployed persons,Married,Other,Mental Disorders,0,1,1,0,Depression,Unknown,Frequent,0,1,0,1,0
 2018,0,63,M,Buddhist,Sinhalese,Security Personnel,Married,School not attended,Addiction to narcotic drugs,0,0,0,0,None,Unknown,Frequent,0,1,0,0,0
@@ -328,7 +328,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2015,1,18,F,Buddhist,Sinhalese ,Student,Unmarried,Passed G.C.E (O/L),Problems caused with the elders,1,0,1,0,None,Unknown,None,1,1,1,1,1
 2015,1,82,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,Passed Grade 8,Addiction to narcotic drugs,0,1,1,0,None,Unknown,Frequent,1,1,1,0,1
 2017,1,74,M,Buddhist,Sinhalese ,Unemployed persons,Married,Passed Grade 8,Other Reasons,0,0,0,1,None,HIV/AIDS,Frequent,0,0,0,1,0
-2016,1,57,M ,Buddhist,Sinhalese,Pensioners,Married,Passed G.C.E (O/L),Other Reasons,0,0,0,0,None,Chronic pain,Frequent,1,1,0,0,0
+2016,1,57,M,Buddhist,Sinhalese,Pensioners,Married,Passed G.C.E (O/L),Other Reasons,0,0,0,0,None,Chronic pain,Frequent,1,1,0,0,0
 2015,1,30,M,Buddhist,Sinhalese ,Production process workers Craftsman & related workers transport equipment operators & labourers,Unmarried,Passed Grade 8,Using disappointment frustration caused through love affairs,0,1,1,1,Depression,HIV/AIDS,Frequent,1,1,1,1,1
 2016,1,85,M,Buddhist,Sinhalese,Pensioners,Married,Passed G.C.E (O/L),Other Reasons,0,0,1,1,None,Other,None,1,1,1,1,1
 2018,1,72,M,Buddhist,Sinhalese,Unemployed persons,Married,From Grade 1 to 7,Other Reasons,1,0,0,0,None,Other,Frequent,1,1,0,0,0
@@ -338,10 +338,10 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,17,M,Buddhist,Sinhalese,Unemployed persons,Married,School not attended,Cirrhosis,0,0,1,0,None,Other,None,1,0,0,0,0
 2018,0,58,F,Christian,Burger,Clerical & related workers (Stenographers/ Typists etc),Unmarried,University Degree or above,Asthma,0,1,1,0,None,Asthma,None,1,0,0,0,0
 2018,0,93,F,Hindu,Tamil,Production process workers Craftsman & related workers transport equipment operators & labourers,Unmarried,University Degree or above,Natural Death,0,0,0,0,None,Unknown,None,0,0,0,0,0
-2015,1,42,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers ,Unmarried,Passed Grade 8,Other Reasons,0,0,0,0,None,Unknown,None,0,0,0,1,0
+2015,1,42,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,Passed Grade 8,Other Reasons,0,0,0,0,None,Unknown,None,0,0,0,1,0
 2018,0,54,M,Christian,Sinhalese,Administrative Executive Managerial & related workers,Widow,Passed G.C.E (A/L),Natural Death,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2016,1,85,M,Buddhist,Sinhalese,Unemployed persons,Married,Passed Grade 8,Mental Disorders,1,1,1,0,Schizophrenia,Unknown,None,1,1,1,0,0
-2018,1,70,M,Buddhist,Sinhalese,Workers not classfied by occupation,Unmarried,Passed Grade 8,Other Reasons,1,0,0,0,None,Unknown,None,0,1,0,0,0
+2018,1,70,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Unmarried,Passed Grade 8,Other Reasons,1,0,0,0,None,Unknown,None,0,1,0,0,0
 2017,1,39,M,Hindu ,Tamil,Production process workers Craftsman & related workers transport equipment operators & labourers,Married,Passed Grade 8,Harrasment by the husband & family disputes,0,0,0,0,None,Cancer,Frequent,1,1,0,1,0
 2018,0,39,M,Other,Other,Security Personnel,Divourced,School not attended,Road Accident,1,0,0,0,None,Unknown,None,0,1,0,0,0
 2015,1,28,M,Hindu,Tamil,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,School not attended,Other Reasons,1,0,0,0,None,Unknown,Moderate,1,1,1,1,0
@@ -374,7 +374,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,66,F,Christian,Burger,Pensioners,Unmarried,Passed G.C.E (A/L),Natural Death,0,0,0,0,None,Heart Diseases,None,0,0,0,0,0
 2018,0,80,F,Islam,Muslim,Sales worker,Unmarried,University Degree or above,Ischemic heart disease,0,0,0,0,None,Heart Diseases,None,0,0,0,0,0
 2016,1,17,F,Buddhist,Sinhalese,Student,Unmarried,Passed G.C.E (A/L),Using disappointment frustration caused through love affairs,1,0,1,1,Depression,HIV/AIDS,None,1,1,1,0,0
-2016,1,59,M,Buddhist,Sinhalese,Workers not classfied by occupation,Unmarried,Passed G.C.E (O/L),Harrasment by the husband & family disputes,0,0,0,0,None,Diabetes,Frequent,0,1,0,0,0
+2016,1,59,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Unmarried,Passed G.C.E (O/L),Harrasment by the husband & family disputes,0,0,0,0,None,Diabetes,Frequent,0,1,0,0,0
 2018,0,68,M,Other,Other,Security Personnel,Widow,Passed G.C.E (A/L),Natural Death,0,0,0,0,None,Heart Diseases,None,0,0,0,0,0
 2018,1,67,M,Buddhist,Sinhalese,Security Personnel,Married,Passed Grade 8,Mental Disorders,0,1,0,0,Depression,Diabetes,None,0,1,1,1,1
 2017,1,52,F,Buddhist,Sinhalese ,Unemployed persons,Married,From Grade 1 to 7,Chronic diseases & Physical disabilities,0,0,1,1,None,Cancer,Moderate,1,1,1,1,0
@@ -391,7 +391,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,97,F,Christian,Burger,Pensioners,Widow,Passed G.C.E (A/L),Natural Death,0,1,1,0,None,Diabetes,None,1,0,1,0,1
 2018,0,51,F,Buddhist,Sinhalese,Workers not classfied by occupation ,Unmarried,Passed G.C.E (O/L),Natural Death,0,0,0,0,None,Unknown,None,0,1,0,0,0
 2016,1,57,M,Buddhist,Sinhalese,Unemployed persons,Married,Passed Grade 8,Mental Disorders,0,1,1,1,Depression,Other,None,1,0,1,1,1
-2016,1,49,M ,Buddhist,Sinhalese,Unemployed persons,Married,Passed Grade 8,Harrasment by the husband & family disputes,0,0,0,0,None,Kidney Disease,Frequent,0,1,1,1,1
+2016,1,49,M,Buddhist,Sinhalese,Unemployed persons,Married,Passed Grade 8,Harrasment by the husband & family disputes,0,0,0,0,None,Kidney Disease,Frequent,0,1,1,1,1
 2015,1,70,M,Buddhist,Sinhalese ,Unemployed persons,Unmarried,Passed G.C.E (O/L),Chronic diseases & Physical disabilities,0,0,1,1,None,Cancer,Moderate,1,1,1,1,1
 2018,0,91,F,Hindu,Tamil,Clerical & related workers (Stenographers/ Typists etc),Widow,From Grade 1 to 7,Natural Death,0,1,0,0,None,Other,None,0,0,0,0,0
 2016,1,35,M,Buddhist,Sinhalese,Unemployed persons,Unmarried,School not attended,Mental Disorders,1,1,1,1,Depression,Unknown,Moderate,1,1,0,1,1
@@ -416,10 +416,10 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,72,F,Christian,Burger,Clerical & related workers (Stenographers/ Typists etc),Widow,From Grade 1 to 7,Natural Death,0,1,1,0,None,Unknown,None,1,0,0,0,0
 2018,0,78,F,Christian,Sinhalese,Pensioners,Widow,From Grade 1 to 7,Mental Disorders,0,1,1,1,Bipolar Disorder,Diabetes,None,1,1,0,0,1
 2016,1,21,M,Buddhist,Sinhalese,Armed Services,Unmarried,Passed Grade 8,Mental Disorders,0,1,1,1,Schizophrenia,Unknown,None,1,1,1,0,1
-2017,1,29,M,Buddhist,Sinhalese ,professional Technical & related workers (Doctors/Engineers/Accountants/ Teachers/Authors/ Photographers),Unmarried,Passed G.C.E (A/L),Chronic diseases & Physical disabilities,0,0,0,1,None,Other,Frequent,0,1,0,0,0
+2017,1,29,M,Buddhist,Sinhalese ,Professional Technical & related workers (Doctors/Engineers/Accountants/ Teachers/Authors/ Photographers),Unmarried,Passed G.C.E (A/L),Chronic diseases & Physical disabilities,0,0,0,1,None,Other,Frequent,0,1,0,0,0
 2018,0,96,F,Other,Burger,Security Personnel,Married,From Grade 1 to 7,Mental Disorders,1,1,0,0,Other,Unknown,None,1,1,0,0,0
 2015,1,57,M,Buddhist,Sinhalese ,Workers not classfied by occupation ,Married,Passed Grade 8,Other Reasons,1,0,0,0,Depression,Kidney Disease,Frequent,1,1,1,0,0
-2018,1,82,M,Buddhist,Sinhalese,Workers not classfied by occupation,Married,Passed Grade 8,Other Reasons,0,0,0,0,None,Unknown,None,1,0,0,0,1
+2018,1,82,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Married,Passed Grade 8,Other Reasons,0,0,0,0,None,Unknown,None,1,0,0,0,1
 2018,0,98,F,Buddhist,Sinhalese,Unemployed persons,Married,Passed G.C.E (O/L),Natural Death,0,1,0,0,None,Unknown,None,0,0,0,0,0
 2018,0,37,M,Other,Other,Security Personnel,Divourced,University Degree or above,Natural Death,0,0,0,0,None,Kidney Disease,None,0,0,0,0,0
 2015,1,36,M,Buddhist,Sinhalese ,Service workers (Cooks/Tailors/Barbers/ etc),Unmarried,Passed G.C.E (O/L),Other Reasons,0,0,0,0,None,COPD,Moderate,0,1,0,0,0
@@ -474,7 +474,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,60,M,Islam,Muslim,Clerical & related workers (Stenographers/ Typists etc),Widow,Passed G.C.E (A/L),Asthma,1,0,0,0,None,Asthma,None,0,1,0,0,1
 2018,0,75,M,Other,Other,Security Personnel,Divourced,University Degree or above,Natural Death,0,0,0,0,None,Unknown,None,0,1,0,0,0
 2018,0,73,F,Christian,Burger,Administrative Executive Managerial & related workers,Married,From Grade 1 to 7,Natural Death,0,0,0,0,None,Unknown,None,0,0,0,0,0
-2016,1,74,M,Buddhist,Sinhalese,Workers not classfied by occupation,Married,From Grade 1 to 7,Other Reasons,0,1,0,1,None,Diabetes,None,1,0,1,1,1
+2016,1,74,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Married,From Grade 1 to 7,Other Reasons,0,1,0,1,None,Diabetes,None,1,0,1,1,1
 2017,1,21,F,Buddhist,Sinhalese ,Unemployed persons,Married,Passed G.C.E (O/L),Harrasment by the husband & family disputes,0,0,0,1,Depression,Unknown,None,0,1,1,1,0
 2018,0,50,F,Hindu,Tamil,Clerical & related workers (Stenographers/ Typists etc),Widow,University Degree or above,Mental Disorders,0,0,0,1,BPD,Unknown,None,0,0,0,0,1
 2018,0,79,F,Hindu,Tamil,Pensioners,Widow,University Degree or above,Asthma,0,0,0,0,None,Asthma,None,0,0,0,1,0
@@ -551,7 +551,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,33,F,Christian,Burger,Police,Unmarried,School not attended,Asthma,0,1,0,0,None,Asthma,None,0,0,0,0,0
 2018,0,93,F,Christian,Burger,Pensioners,Unmarried,University Degree or above,Ischemic heart disease,0,0,0,0,None,Heart Diseases,None,0,0,0,0,0
 2017,1,23,M,Buddhist,Sinhalese ,Unemployed persons,Unmarried,Passed G.C.E (O/L),Other Reasons,0,0,0,0,None,Unknown,None,1,1,0,0,0
-2017,1,57,F,Buddhist,Sinhalese ,Production process workers Craftsman & related workers transport equipment operators & labourers ,Married,From Grade 1 to 7,Economic problems (Poverty indebtedness),0,0,1,0,PTSD,Other,None,0,0,1,0,0
+2017,1,57,F,Buddhist,Sinhalese ,Production process workers Craftsman & related workers transport equipment operators & labourers,Married,From Grade 1 to 7,Economic problems (Poverty indebtedness),0,0,1,0,PTSD,Other,None,0,0,1,0,0
 2018,0,19,M,Buddhist,Sinhalese,Production process workers Craftsman & related workers transport equipment operators & labourers,Married,School not attended,Diabetes,0,0,0,0,None,Diabetes,None,0,1,0,0,0
 2017,1,69,M,Buddhist,Sinhalese ,Unemployed persons,Married,Passed G.C.E (O/L),Chronic diseases & Physical disabilities,0,0,0,0,None,Kidney Disease,Moderate,1,1,0,0,0
 2018,0,86,F,Islam,Muslim,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,Passed G.C.E (A/L),Ischemic heart disease,0,0,0,0,None,Chronic pain,None,0,1,0,0,0
@@ -603,7 +603,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,59,M,Christian,Burger,Administrative Executive Managerial & related workers,Unmarried,School not attended,Alzheimer's disease,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2018,0,74,F,Hindu,Tamil,Pensioners,Divourced,Passed G.C.E (A/L),Asthma,0,1,1,0,None,Asthma,None,1,0,1,0,0
 2018,0,57,F,Hindu,Tamil,Pensioners,Divourced,Passed Grade 8,Asthma,0,0,0,0,None,Asthma,None,0,1,0,0,0
-2017,1,20,F,Buddhist,Sinhalese ,Unemployed persons,Unmarried,Passed grade 8,Other Reasons,1,0,0,1,Bipolar Disorder,Unknown,None,1,1,0,1,0
+2017,1,20,F,Buddhist,Sinhalese ,Unemployed persons,Unmarried,Passed Grade 8,Other Reasons,1,0,0,1,Bipolar Disorder,Unknown,None,1,1,0,1,0
 2017,1,48,M,Buddhist,Sinhalese ,Professional Technical & related workers (Doctors/Engineers/Accountants/ Teachers/Authors/ Photographers),Married,Passed G.C.E (O/L),Using disappointment frustration caused through love affairs,0,0,1,0,Other,Other,Moderate,1,1,0,0,0
 2018,0,76,F,Other,Other,Security Personnel,Widow,Other,Asthma,0,0,0,0,None,Asthma,None,0,0,0,0,0
 2017,1,24,M,Buddhist,Sinhalese ,Administrative Executive Managerial & related workers,Unmarried,Passed G.C.E (O/L),Mental Disorders,1,1,0,0,Depression,Unknown,Moderate,1,1,0,1,0
@@ -612,7 +612,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,70,M,Christian,Burger,Unemployed persons,Widow,Passed G.C.E (A/L),Diabetes,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2017,1,48,M,Buddhist,Sinhalese ,Unemployed persons,Unmarried,Passed Grade 8,Other Reasons,0,0,1,0,None,Other,None,0,1,1,0,0
 2018,0,90,F,Islam,Muslim,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,University Degree or above,Natural Death,0,0,0,0,None,Unknown,None,0,1,0,0,0
-2015,1,37,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers ,Married,Passed Grade 8,Other Reasons,0,1,0,0,Depression,Other,Moderate,0,1,0,0,0
+2015,1,37,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,Passed Grade 8,Other Reasons,0,1,0,0,Depression,Other,Moderate,0,1,0,0,0
 2018,1,48,M,Buddhist,Sinhalese,Administrative Executive Managerial & related workers,Married,Passed Grade 8,Mental Disorders,0,0,1,1,Depression,Other,None,0,1,0,1,0
 2018,0,37,M,Christian,Sinhalese,Administrative Executive Managerial & related workers,Unmarried,School not attended,Asthma,0,0,0,0,None,Asthma,None,0,0,0,0,0
 2017,1,55,M,Hindu,Tamil,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,From Grade 1 to 7,Chronic diseases & Physical disabilities,0,0,1,1,Depression,Diabetes,None,1,1,0,1,1
@@ -646,7 +646,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2015,1,62,M,Buddhist,Sinhalese ,Unemployed persons,Unmarried,Passed G.C.E (O/L),Mental Disorders,1,1,1,0,Bipolar Disorder,Unknown,None,0,1,1,1,0
 2017,1,49,F,Buddhist,Sinhalese ,Workers not classfied by occupation ,Married,Passed G.C.E (O/L),Economic problems (Poverty indebtedness),1,0,0,0,None,Other,None,0,1,1,0,1
 2018,0,60,F,Hindu,Tamil,Armed Services,Divourced,University Degree or above,Mental Disorders,0,1,0,1,BPD,Other,None,1,1,0,0,0
-2018,1,52,M,Buddhist,Sinhalese,Workers not classfied by occupation,Married,Passed Grade 8,Harrasment by the husband & family disputes,0,1,1,1,Depression,Diabetes,Frequent,1,1,1,1,1
+2018,1,52,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Married,Passed Grade 8,Harrasment by the husband & family disputes,0,1,1,1,Depression,Diabetes,Frequent,1,1,1,1,1
 2018,0,22,F,Christian,Burger,Armed Services,Divourced,From Grade 1 to 7,Asthma,0,0,0,0,None,Asthma,None,0,0,0,0,0
 2018,0,70,M,Other,Other,Administrative Executive Managerial & related workers,Divourced,University Degree or above,Natural Death,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2016,1,19,F,Buddhist,Sinhalese,Unemployed persons,Unmarried,Passed G.C.E (O/L),Problems caused with the elders,0,0,0,0,None,Unknown,None,0,1,0,1,1
@@ -674,7 +674,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,57,F,Hindu,Tamil,Pensioners,Unmarried,University Degree or above,Chronic kidney disease,0,0,0,1,None,Kidney Disease,None,0,1,0,0,0
 2015,1,72,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,Passed Grade 8,Mental Disorders,0,1,0,0,Depression,Cancer,None,0,1,0,1,0
 2018,0,28,M,Christian,Burger,Workers not classfied by occupation ,Unmarried,Other,Natural Death,0,0,0,0,None,Diabetes,None,0,0,0,0,0
-2015,1,86,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,Passed Grade 8,Mental Disorders,0,0,0,0,Other      ,Diabetes,None,1,1,0,0,0
+2015,1,86,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,Passed Grade 8,Mental Disorders,0,0,0,0,Other,Diabetes,None,1,1,0,0,0
 2017,1,17,F,Buddhist,Sinhalese ,Student,Unmarried,Passed G.C.E (O/L),Failure at the examination,1,1,1,1,Depression,Unknown,None,0,0,1,1,0
 2018,0,90,F,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,Passed G.C.E (O/L),Natural Death,0,0,0,0,None,Unknown,None,0,1,0,0,0
 2018,0,88,M,Buddhist,Sinhalese,Unemployed persons,Unmarried,Other,Addiction to narcotic drugs,0,0,0,0,None,Unknown,Frequent,0,0,0,0,0
@@ -708,7 +708,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,1,48,M,Hindu,Tamil,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,School not attended,Addiction to narcotic drugs,0,0,0,0,None,Heart Diseases,Frequent,0,0,0,1,0
 2016,1,75,M,Hindu,Tamil,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,From Grade 1 to 7,Chronic diseases & Physical disabilities,0,0,0,0,None,COPD,None,1,1,0,0,0
 2018,1,51,M,Hindu,Tamil,Sales worker,Married,From Grade 1 to 7,Addiction to narcotic drugs,0,0,0,0,None,Other,Frequent,0,0,0,0,0
-2017,1,59,M,Buddhist,Sinhalese ,Unemployed persons ,Married,Passed Grade 8,Mental Disorders,1,0,0,1,Schizophrenia,Diabetes,Frequent,0,1,1,1,1
+2017,1,59,M,Buddhist,Sinhalese ,Unemployed persons,Married,Passed Grade 8,Mental Disorders,1,0,0,1,Schizophrenia,Diabetes,Frequent,0,1,1,1,1
 2018,0,70,F,Islam,Muslim,Sales worker,Married,From Grade 1 to 7,Natural Death,0,1,0,0,None,Diabetes,None,0,1,0,0,0
 2018,0,57,F,Christian,Burger,Workers not classfied by occupation ,Unmarried,Passed G.C.E (A/L),Natural Death,0,1,0,0,None,Other,None,0,1,0,1,0
 2017,1,74,M,Buddhist,Sinhalese ,Service workers (Cooks/Tailors/Barbers/ etc),Married,From Grade 1 to 7,Other Reasons,0,0,0,0,None,Other,None,0,1,0,1,0
@@ -733,7 +733,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,22,F,Buddhist,Sinhalese,Service workers (Cooks/Tailors/Barbers/ etc),Unmarried,Passed G.C.E (O/L),Ischemic heart disease,0,0,0,0,None,Heart Diseases,None,0,1,0,0,0
 2018,0,79,F,Hindu,Tamil,Pensioners,Divourced,From Grade 1 to 7,Asthma,1,0,0,0,None,Asthma,None,0,0,1,0,0
 2018,1,66,M,Buddhist,Sinhalese,Unemployed persons,Married,School not attended,Chronic diseases & Physical disabilities,0,1,1,0,PTSD,Heart Diseases,None,1,1,1,1,0
-2017,1,88,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers ,Unmarried,Passed Grade 8,Other Reasons,0,0,0,0,None,Kidney Disease,Moderate,0,0,0,0,1
+2017,1,88,M,Buddhist,Sinhalese ,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,Passed Grade 8,Other Reasons,0,0,0,0,None,Kidney Disease,Moderate,0,0,0,0,1
 2018,0,59,M,Other,Other,Service workers (Cooks/Tailors/Barbers/ etc),Married,From Grade 1 to 7,Natural Death,0,0,0,0,None,Diabetes,None,0,0,0,0,0
 2015,1,86,M,Buddhist,Sinhalese ,Pensioners,Married,Passed Grade 8,Mental Disorders,1,0,0,1,Depression,Kidney Disease,Moderate,1,1,0,1,0
 2018,0,30,F,Christian,Burger,Police,Divourced,From Grade 1 to 7,Asthma,0,1,0,0,None,Asthma,None,0,0,1,0,0
@@ -750,7 +750,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2015,1,24,M,Buddhist,Sinhalese ,Unemployed persons,Unmarried,Passed Grade 8,Mental Disorders,0,1,0,1,BPD,Other,Frequent,0,1,0,0,0
 2018,0,29,F,Hindu,Tamil,Administrative Executive Managerial & related workers,Widow,Passed Grade 8,Natural Death,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2018,0,67,M,Other,Other,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,From Grade 1 to 7,Addiction to narcotic drugs,0,0,0,0,None,Diabetes,Frequent,0,1,0,0,0
-2018,1,59,M,Buddhist,Sinhalese,Workers not classfied by occupation,Unmarried,From Grade 1 to 7,Mental Disorders,0,0,1,0,Schizophrenia,Chronic pain,None,1,0,1,1,1
+2018,1,59,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Unmarried,From Grade 1 to 7,Mental Disorders,0,0,1,0,Schizophrenia,Chronic pain,None,1,0,1,1,1
 2018,1,58,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,School not attended,Other Reasons,1,0,1,0,Depression,Other,Moderate,1,1,0,1,0
 2018,1,45,M,Buddhist,Sinhalese,Service workers (Cooks/Tailors/Barbers/ etc),Married,Passed Grade 8,Harrasment by the husband & family disputes,0,0,1,1,Depression,Other,Moderate,0,1,0,1,0
 2017,1,23,M,Buddhist,Sinhalese ,Production process workers Craftsman & related workers transport equipment operators & labourers,Unmarried,From Grade 1 to 7,Harrasment by the husband & family disputes,1,0,0,0,Depression,Unknown,None,0,1,0,1,0
@@ -799,12 +799,12 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,69,F,Other,Other,Pensioners,Divourced,From Grade 1 to 7,Mental Disorders,1,1,0,1,Bipolar Disorder,Unknown,None,A,1,0,0,1
 2015,1,73,M,Buddhist,Sinhalese ,Unemployed persons,Married,School not attended,Other Reasons,0,0,0,0,None,Diabetes,None,1,0,1,0,1
 2018,0,48,F,Buddhist,Sinhalese,Armed Services,Unmarried,University Degree or above,Other Reasons,1,0,0,0,None,Other,None,1,1,0,1,0
-2015,1,31,M,Buddhist,Sinhalese ,Clerical & related workers (Stenographers/ Typists etc) ,Married,Passed G.C.E (O/L),Harrasment by the husband & family disputes,1,0,1,1,Depression,Diabetes,Moderate,1,1,0,1,1
+2015,1,31,M,Buddhist,Sinhalese ,Clerical & related workers (Stenographers/ Typists etc),Married,Passed G.C.E (O/L),Harrasment by the husband & family disputes,1,0,1,1,Depression,Diabetes,Moderate,1,1,0,1,1
 2018,0,89,F,Buddhist,Sinhalese,Workers not classfied by occupation ,Unmarried,Passed G.C.E (O/L),Stroke/Chronic diseases & Physical disabilities,0,1,0,0,Schizophrenia,Chronic pain,None,1,0,1,0,0
 2018,0,82,M,Other,Other,Security Personnel,Married,University Degree or above,Natural Death,0,0,0,0,None,Unknown,None,0,1,0,0,0
 2018,1,65,M,Buddhist,Sinhalese,Service workers (Cooks/Tailors/Barbers/ etc),Married,School not attended,Harrasment by the husband & family disputes,0,0,1,0,None,Other,Frequent,1,1,1,0,1
 2018,0,74,F,Christian,Burger,Police,Unmarried,University Degree or above,Other Reasons,0,1,0,0,None,Unknown,None,1,0,0,0,0
-2018,1,56,M,Buddhist,Sinhalese,Workers not classfied by occupation,Married,Passed Grade 8,Other Reasons,0,0,1,0,None,Unknown,Frequent,1,0,0,0,0
+2018,1,56,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Married,Passed Grade 8,Other Reasons,0,0,1,0,None,Unknown,Frequent,1,0,0,0,0
 2018,0,24,F,Islam,Muslim,Agricultural Animal Husbandry Fisherman & related Forestry workers,Unmarried,Passed G.C.E (A/L),Ischemic heart disease,0,0,0,0,None,Chronic pain,None,0,0,0,0,0
 2018,1,84,M,Buddhist,Sinhalese,Unemployed persons,Unmarried,School not attended,Chronic diseases & Physical disabilities,0,0,0,0,None,Diabetes,None,1,0,0,0,0
 2018,0,79,F,Hindu,Tamil,Pensioners,Widow,University Degree or above,Mental Disorders,0,1,1,0,BPD,Other,None,1,0,1,0,0
@@ -854,14 +854,14 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,34,F,Other,Burger,Administrative Executive Managerial & related workers,Widow,University Degree or above,Natural Death,0,0,0,0,None,Other,None,0,0,0,0,0
 2018,1,25,M,Buddhist,Sinhalese,Clerical & related workers (Stenographers/ Typists etc),Unmarried,Passed G.C.E (O/L),Using disappointment frustration caused through love affairs,0,0,0,1,None,Heart Diseases,Frequent,1,1,1,1,1
 2018,1,42,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,Passed Grade 8,Mental Disorders,1,1,1,1,Depression,Heart Diseases,Moderate,1,1,1,1,1
-2016,1,45,M,Buddhist,Sinhalese,Workers not classfied by occupation,Unmarried,From Grade 1 to 7,Other Reasons,0,0,1,1,None,Unknown,None,1,1,1,1,1
+2016,1,45,M,Buddhist,Sinhalese,Workers not classfied by occupation ,Unmarried,From Grade 1 to 7,Other Reasons,0,0,1,1,None,Unknown,None,1,1,1,1,1
 2018,0,78,F,Christian,Burger,Clerical & related workers (Stenographers/ Typists etc),Widow,School not attended,Asthma,0,0,0,0,None,Asthma,None,0,0,0,0,0
 2018,0,52,F,Hindu,Tamil,Police,Divourced,Other,Ischemic heart disease,1,1,0,0,None,Unknown,None,0,1,0,0,0
 2017,1,63,F,Buddhist,Sinhalese ,Unemployed persons,Married,From Grade 1 to 7,Other Reasons,0,0,0,1,None,Asthma,None,0,0,0,1,0
 2017,1,16,F,Buddhist,Sinhalese ,Student,Unmarried,Passed Grade 8,Using disappointment frustration caused through love affairs,0,1,1,1,Bipolar Disorder,Other,None,1,1,0,1,1
 2018,0,13,M,Other,Burger,Student,Unmarried,Passed Grade 8,Natural Death,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2018,0,66,F,Hindu,Tamil,Pensioners,Widow,Other,Natural Death,0,0,0,0,None,Other,None,0,0,0,0,0
-2016,1,50,M,Buddhist,Sinhalese,Service workers (Cooks/Tailors/Barbers/ etc),Married,Passed Grade 8 ,Economic problems (Poverty indebtedness),1,0,0,0,None,Other,None,0,1,1,0,1
+2016,1,50,M,Buddhist,Sinhalese,Service workers (Cooks/Tailors/Barbers/ etc),Married,Passed Grade 8,Economic problems (Poverty indebtedness),1,0,0,0,None,Other,None,0,1,1,0,1
 2017,1,13,M,Buddhist,Sinhalese ,Student,Unmarried,From Grade 1 to 7,Other Reasons,1,0,1,1,Depression,Unknown,None,0,1,0,1,1
 2018,0,55,M,Christian,Sinhalese,Police,Widow,School not attended,Mental Disorders,1,1,0,1,Depression,Diabetes,None,1,1,0,0,1
 2018,0,66,M,Christian,Burger,Administrative Executive Managerial & related workers,Unmarried,School not attended,Chronic kidney disease,0,0,0,0,None,Kidney Disease,None,0,0,0,0,0
@@ -892,7 +892,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,83,F,Christian,Burger,Administrative Executive Managerial & related workers,Widow,Passed G.C.E (A/L),Ischemic heart disease,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2018,0,69,F,Hindu,Tamil,Professional Technical & related workers (Doctors/Engineers/Accountants/ Teachers/Authors/ Photographers),Unmarried,University Degree or above,Natural Death,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2015,1,41,M,Buddhist,Sinhalese ,Workers not classfied by occupation ,Unmarried,Passed Grade 8,Other Reasons,1,0,0,0,BPD,Unknown,Moderate,0,1,1,0,1
-2016,1,26,M ,Buddhist,Sinhalese,Administrative Executive Managerial & related workers,Unmarried,Passed G.C.E (A/L),Using disappointment frustration caused through love affairs,0,0,0,1,None,Other,Frequent,1,1,1,1,1
+2016,1,26,M,Buddhist,Sinhalese,Administrative Executive Managerial & related workers,Unmarried,Passed G.C.E (A/L),Using disappointment frustration caused through love affairs,0,0,0,1,None,Other,Frequent,1,1,1,1,1
 2016,1,18,M,Buddhist,Sinhalese,Student,Unmarried,Passed G.C.E (O/L),Other Reasons,1,0,1,1,Depression,Heart Diseases,None,0,1,0,1,1
 2016,1,60,M,Buddhist,Sinhalese,Unemployed persons,Married,Passed Grade 8,Problems caused with the elders,0,0,0,0,None,Diabetes,None,0,0,0,0,0
 2018,0,31,M,Buddhist,Sinhalese,Unemployed persons,Married,School not attended,Cirrhosis,0,0,0,0,None,Unknown,None,0,1,0,0,0
@@ -948,7 +948,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2017,1,17,F,Buddhist,Sinhalese ,Student,Unmarried,Passed G.C.E (O/L),Other Reasons,0,0,1,1,None,Unknown,None,1,1,1,1,1
 2018,0,74,F,Hindu,Tamil,Armed Services,Divourced,From Grade 1 to 7,Alzheimer's disease,0,0,0,0,None,Unknown,None,0,0,0,0,0
 2018,0,38,M,Christian,Burger,Administrative Executive Managerial & related workers,Widow,Passed G.C.E (A/L),Addiction to narcotic drugs,0,0,0,0,None,Unknown,Frequent,0,0,0,0,0
-2016,1,80,M ,Buddhist,Sinhalese,Unemployed persons,Married,From Grade 1 to 7,Chronic diseases & Physical disabilities,0,0,0,1,None,Chronic pain,None,0,1,1,0,0
+2016,1,80,M,Buddhist,Sinhalese,Unemployed persons,Married,From Grade 1 to 7,Chronic diseases & Physical disabilities,0,0,0,1,None,Chronic pain,None,0,1,1,0,0
 2018,0,42,F,Hindu,Tamil,Police,Divourced,University Degree or above,Natural Death,0,0,0,0,None,Diabetes,None,0,1,0,0,0
 2017,1,32,M,Buddhist,Sinhalese ,Armed Services,Unmarried,Passed G.C.E (O/L),REASON NOT MENTIONED,1,0,1,0,Depression,Other,None,0,1,0,1,0
 2018,1,59,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,Passed G.C.E (O/L),Sexual incapacity,0,0,1,0,Bipolar Disorder,Other,None,0,0,1,1,1
@@ -986,7 +986,7 @@ Year,Not Suicide(0)/Suicide(1),Age,Gender,Religon,Race,Nature Of Occupation,Civi
 2018,0,12,F,Hindu,Tamil,Student,Unmarried,Passed G.C.E (O/L),Natural Death,0,0,0,0,None,Unknown,None,0,1,1,0,0
 2018,0,55,F,Buddhist,Sinhalese,Pensioners,Unmarried,Passed G.C.E (A/L),Addiction to narcotic drugs,1,0,1,0,PTSD,Unknown,Frequent,0,0,1,1,0
 2018,0,80,F,Hindu,Tamil,Sales worker,Divourced,Passed G.C.E (O/L),Ischemic heart disease,0,1,0,0,None,Unknown,None,0,0,0,0,0
-2018,1,70,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers ,Married,From Grade 1 to 7,Chronic diseases & Physical disabilities,0,1,0,1,Bipolar Disorder,Unknown,Frequent,1,0,1,1,0
+2018,1,70,M,Buddhist,Sinhalese,Agricultural Animal Husbandry Fisherman & related Forestry workers,Married,From Grade 1 to 7,Chronic diseases & Physical disabilities,0,1,0,1,Bipolar Disorder,Unknown,Frequent,1,0,1,1,0
 2016,1,39,F,Buddhist,Sinhalese,Service workers (Cooks/Tailors/Barbers/ etc),Married,Passed Grade 8,Economic problems (Poverty indebtedness),0,0,0,1,None,Other,None,0,1,1,0,1
 2017,1,44,M,Buddhist,Sinhalese ,Professional Technical & related workers (Doctors/Engineers/Accountants/ Teachers/Authors/ Photographers),Married,University Degree or above,Mental Disorders,1,0,0,1,Depression,Unknown,Frequent,1,1,1,1,1
 2018,0,64,F,Hindu,Tamil,Pensioners,Divourced,University Degree or above,Natural Death,0,0,0,0,None,Unknown,None,0,1,0,0,0
