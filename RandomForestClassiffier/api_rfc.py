@@ -40,8 +40,6 @@ import pickle
 
 from flask import Flask, jsonify, request
 from flask_restful import Api, Resource
-from SVM_kernal_nonlinear.SVMmodelP import clf
-from sklearn.externals import joblib
 
 app = Flask(__name__)
 api = Api(app)
