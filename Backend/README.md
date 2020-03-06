@@ -1,3 +1,9 @@
 ## Suicide Risk Prediction Project
 
-The components of the suicide risk prediction system.
+Patient account creating, deleting, updating and retrieving all done
+Doctor class makings are done 
+
+have to create doctor apis
+patient records
+
+Authentication system
