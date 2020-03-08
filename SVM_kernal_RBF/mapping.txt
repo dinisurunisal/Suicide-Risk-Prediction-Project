@@ -1,0 +1,10 @@
+Gender {'F': 0, 'M': 1}
+Religon {'Buddhist': 0, 'Christian': 1, 'Hindu': 2, 'Islam': 3, 'Other': 4}
+Race {'Burger': 0, 'Muslim': 1, 'Other': 2, 'Sinhalese ': 3, 'Tamil': 4}
+Nature Of Occupation {'Administrative Executive Managerial & related workers': 0, 'Agricultural Animal Husbandry Fisherman & related Forestry workers': 1, 'Armed Services': 2, 'Clerical & related workers (Stenographers/ Typists etc)': 3, 'Pensioners': 4, 'Police': 5, 'Production process workers Craftsman & related workers transport equipment operators & labourers': 6, 'Professional Technical & related workers (Doctors/Engineers/Accountants/ Teachers/Authors/ Photographers)': 7, 'Sales worker': 8, 'Security Personnel': 9, 'Service workers (Cooks/Tailors/Barbers/ etc)': 10, 'Student': 11, 'Unemployed persons': 12, 'Workers not classfied by occupation ': 13}
+Civil Status {'Divourced': 0, 'Married': 1, 'Unmarried': 2, 'Widow': 3}
+Education Level {'From Grade 1 to 7': 0, 'Other': 1, 'Passed G.C.E (A/L)': 2, 'Passed G.C.E (O/L)': 3, 'Passed Grade 8': 4, 'School not attended': 5, 'University Degree or above': 6}
+Reason {'Addiction to narcotic drugs': 0, 'Aggrieved over the death parents/relations': 1, 'Chronic diseases & Physical disabilities': 2, 'Economic problems (Poverty indebtedness)': 3, 'Employment problems': 4, 'Failure at the examination': 5, 'Harrasment by the husband & family disputes': 6, 'Ill-treatment by the children': 7, 'Loss of property': 8, 'Mental Disorders': 9, 'Natural Death': 10, 'Other Reasons': 11, 'Problems caused with the elders': 12, 'Sexual incapacity': 13, 'Using disappointment frustration caused through love affairs': 14}
+Psychiatric Disorders {'BPD': 0, 'Bipolar Disorder': 1, 'Depression': 2, 'None': 3, 'Other': 4, 'PTSD': 5, 'Schizophrenia': 6}
+Past Illnesses {'Asthma': 0, 'COPD': 1, 'Cancer': 2, 'Chronic pain': 3, 'Diabetes': 4, 'HIV/AIDS': 5, 'Heart Diseases': 6, 'Kidney Disease': 7, 'Other': 8, 'Unknown': 9}
+Alcohol/ drug Consumption {'Frequent': 0, 'Moderate': 1, 'None': 2}
