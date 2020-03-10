@@ -1,0 +1,26 @@
+<form class="example-form">
+
+    <p class="no">LogIn</p>
+    <mat-form-field class="example-full-width">
+            <input matInput placeholder="NIC" [formControl]="NICToLog">
+            <mat-error *ngIf="NICToLog.hasError('nic') && !NICToLog.hasError('required')">
+              Please enter a valid NIC No. 
+            </mat-error>
+            <mat-error *ngIf="NICToLog.hasError('required')">
+              NIC is <strong>required</strong>
+            </mat-error>
+          </mat-form-field>
+
+
+
+
+    <div class="example-container">
+                <mat-form-field>
+                  <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'" [formControl]="passwordToLog">
+    </mat-form-field>
+    </div>
+
+    <div class="no">
+            <button mat-raised-button color="primary" (click)="login()">LogIn </button>
+    </div>
+</form>
