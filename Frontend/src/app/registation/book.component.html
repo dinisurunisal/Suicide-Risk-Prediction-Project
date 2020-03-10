@@ -1,0 +1,38 @@
+<form class="example-form">
+
+  <p class="no">Register</p>
+
+
+  <div class="example-container">
+      <mat-form-field>
+        <input matInput placeholder="Name" [formControl]="nameToReg" >
+  </mat-form-field>
+</div>
+
+  <mat-form-field class="example-full-width">
+          <input matInput placeholder="Email" [formControl]="emailToReg">
+          <mat-error *ngIf="emailToReg.hasError('email') && !emailToReg.hasError('required')">
+            Please enter a valid email address
+          </mat-error>
+          <mat-error *ngIf="emailToReg.hasError('required')">
+            Email is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+
+
+
+
+  <div class="example-container">
+              <mat-form-field>
+                <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'" [formControl]="passwordToReg">
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+  </mat-form-field>
+  </div>
+
+  <div class="no">
+          <button mat-raised-button color="primary" (click)="register()">Register </button>
+          <button mat-button color="primary">Reset</button>
+  </div>
+</form>
