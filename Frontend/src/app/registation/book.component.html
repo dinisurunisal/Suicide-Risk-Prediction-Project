@@ -5,17 +5,47 @@
 
   <div class="example-container">
       <mat-form-field>
-        <input matInput placeholder="Name" [formControl]="nameToReg" >
+        <input matInput placeholder="NIC" [formControl]="nicToReg" >
+  </mat-form-field>
+</div>
+
+<div class="example-container">
+      <mat-form-field>
+        <input matInput placeholder="DOB" [formControl]="DOBToReg" >
+  </mat-form-field>
+</div>
+
+<div class="example-container">
+      <mat-form-field>
+        <input matInput placeholder="Email" [formControl]="EmailToReg" >
+  </mat-form-field>
+</div>
+
+<div class="example-container">
+      <mat-form-field>
+        <input matInput placeholder="Phone Number" [formControl]="phoneToReg" >
+  </mat-form-field>
+</div>
+
+<div class="example-container">
+      <mat-form-field>
+        <input matInput placeholder="Current Hospital" [formControl]="hospitalToReg" >
+  </mat-form-field>
+</div>
+
+<div class="example-container">
+      <mat-form-field>
+        <input matInput placeholder="Doctor License" [formControl]="licenseToReg" >
   </mat-form-field>
 </div>
 
   <mat-form-field class="example-full-width">
-          <input matInput placeholder="Email" [formControl]="emailToReg">
-          <mat-error *ngIf="emailToReg.hasError('email') && !emailToReg.hasError('required')">
-            Please enter a valid email address
+          <input matInput placeholder="NIC" [formControl]="nicToReg">
+          <mat-error *ngIf="nicToReg.hasError('NIC') && !nicToReg.hasError('required')">
+            Please enter a valid NIC number. 
           </mat-error>
-          <mat-error *ngIf="emailToReg.hasError('required')">
-            Email is <strong>required</strong>
+          <mat-error *ngIf="nicToReg.hasError('required')">
+            NIC is <strong>required</strong>
           </mat-error>
         </mat-form-field>
 
