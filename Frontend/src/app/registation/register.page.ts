@@ -1,4 +1,4 @@
-{ path: 'register', loadChildren: './auth/register/register.module#RegisterPageModule' }, 
+ 
 
 import { Component, OnInit } from '@angular/core'; 
 import { Router } from "@angular/router";
