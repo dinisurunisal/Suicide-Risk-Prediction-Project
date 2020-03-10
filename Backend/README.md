@@ -1,6 +1,18 @@
 ## Suicide Risk Prediction Project
 
-Patient account creating, deleting, updating and retrieving all done
-Doctor class makings are done 
+#Using spring boot
+Doctor acc creating
+           updating
+           retrieving 
+           deleting done
+           
+Patient acc creating 
+            updating
+            retrieving
+            deleting done
 
-have to create doctor apis, patient records, Authentication system
+#Using nodejs
+Authentication - API working correctly and have to extend more while registering for a acc
+           
+           
+           
