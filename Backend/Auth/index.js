@@ -1,10 +1,12 @@
 const MongoClient = require('mongodb').MongoClient;
+
+//connecting to mongo cloud
 const uri = "mongodb+srv://user:4313Samadhi@cluster0-jqb4b.mongodb.net/test?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
+
 client.connect(err => {
   const collection = client.db("test").collection("users");
   // perform actions on the collection object
-
 
 const express = require('express');
 const bodyparser = require('body-parser');
@@ -14,7 +16,6 @@ app.use(bodyparser.urlencoded({
     extended: true
   }));
   
-  
   app.use(bodyparser.json());
   
   app.use(function(req, res, next) {
@@ -23,10 +24,11 @@ app.use(bodyparser.urlencoded({
     next();
   });
 
+  //starting the connection
   app.listen(8080,()=>console.log("Express Server Sratrted"));
 
+  //register api
   app.post('/api/reg',(req,res)=>{
-
     obj = {name:req.body.name,mail:req.body.mail,password:req.body.password};
     collection.insertOne(obj,function(err,dbres){
         if (!err)
@@ -37,6 +39,7 @@ app.use(bodyparser.urlencoded({
     });
   });
 
+  //login api
   app.post('/api/login',(req,res)=>{
 
     var querry = {mail:req.body.mail};
