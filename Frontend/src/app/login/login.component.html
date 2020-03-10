@@ -2,12 +2,12 @@
 
     <p class="no">LogIn</p>
     <mat-form-field class="example-full-width">
-            <input matInput placeholder="Email" [formControl]="emailToLog">
-            <mat-error *ngIf="emailToLog.hasError('email') && !emailToLog.hasError('required')">
-              Please enter a valid email address
+            <input matInput placeholder="NIC" [formControl]="NICToLog">
+            <mat-error *ngIf="NICToLog.hasError('nic') && !NICToLog.hasError('required')">
+              Please enter a valid NIC No. 
             </mat-error>
-            <mat-error *ngIf="emailToLog.hasError('required')">
-              Email is <strong>required</strong>
+            <mat-error *ngIf="NICToLog.hasError('required')">
+              NIC is <strong>required</strong>
             </mat-error>
           </mat-form-field>
 
