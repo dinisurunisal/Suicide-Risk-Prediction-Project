@@ -32,18 +32,19 @@ public class PatientService {
     }
 
     //update patient account
-    public Patient update(String NIC) {
+     public Patient update(String NIC) {
         Patient patient = patientRepo.findByNIC(NIC);
         patient.setNIC(NIC);
         return patientRepo.save(patient);
     }
 
-    //Retrieve all patient records
+
+    //Retrieve all patient accounts
     public List<Patient> getAll(){
         return patientRepo.findAll();
     }
 
-    //Retrieve one record
+    //Retrieve one patient account
     public Patient getByNIC(String NIC) {
         return patientRepo.findByNIC(NIC);
     }
