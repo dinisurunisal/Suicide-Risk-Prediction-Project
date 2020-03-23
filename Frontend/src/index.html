@@ -1,15 +1,16 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>GUI</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-<body>
-  <app-root></app-root>
-</body>
-</html>
+<ion-header [translucent]="true">
+   <ion-img src="/assets/myImg.png"></ion-img>
+  <ion-home-content>
+    <ion-card-header>
+      <ion-card-subtitle>Welcome!</ion-card-subtitle>
+      <ion-card-title>Suicide Risk Prediction System</ion-card-title>
+    </ion-card-header>
+    <p>Here’s a small text description about app and how to use.. 
+       Nothing more, nothing less..
+    </p>
+    <ion-item>
+      <ion-button fill="solid">  <a routerLink='/login'> Login </a> </ion-button>
+      <ion-button fill="solid"> <a routerLink='/register'> Register  </a> </ion-button>
+    </ion-item>
+  </ion-card-content>
+</ion-content>
