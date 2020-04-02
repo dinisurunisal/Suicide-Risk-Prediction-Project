@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:id="@+id/regHeader"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/header"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Register"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nametag"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/regHeader"
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:text="Name"
+            android:layout_marginLeft="2dp"
+            android:textSize="25dp" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:hint="Full Name"
+            android:inputType="text"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/dobtag"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/nametag"
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:padding="2dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="DOB"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/picDate"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_date_range_black_24dp"
+                android:clickable="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/dateView"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Your Birthday"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/phonetag"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/dobtag"
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:text="Phone Number"
+            android:layout_marginLeft="2dp"
+            android:textSize="25dp" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:hint="Phone Number"
+            android:inputType="phone"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/hospitaltag"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/phonetag"
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:text="Current Hospitall"
+            android:layout_marginLeft="2dp"
+            android:textSize="25dp" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:hint="Hospital Name"
+            android:inputType="text"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lictag"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/hospitaltag"
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:text="Doctor License"
+            android:layout_marginLeft="2dp"
+            android:textSize="25dp" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:hint="License ID"
+            android:inputType="text"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/passtag"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/lictag"
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:text="Password"
+            android:layout_marginLeft="2dp"
+            android:textSize="25dp" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/conpasstag"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/passtag"
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:text="Confirm Password"
+            android:layout_marginLeft="2dp"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/regDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/Accent"
+        android:fontFamily="serif"
+        android:layout_below="@+id/conpasstag"
+        android:gravity="center"
+        android:text="Register"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regDoctor"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="monospace"
+        android:gravity="clip_horizontal"
+        android:singleLine="false"
+        android:text="Sending email to admin to accept or Decline the registration. Send a message if accepted, then enter The random number in the message. Ask the user to enter it, if those matchef enter to the System." />
+
+</RelativeLayout>
