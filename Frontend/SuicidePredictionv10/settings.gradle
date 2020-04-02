@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Suicide Prediction v1.0'

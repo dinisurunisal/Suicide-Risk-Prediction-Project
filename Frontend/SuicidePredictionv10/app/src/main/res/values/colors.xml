@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <color name="darkPrimary">#FFA000</color>
+    <color name="lightPrimary">#FFECB3</color>
+    <color name="Primary">#FFC107</color>
+    <color name="Accent">#FF9800</color>
+    <color name="Text">#212121</color>
+    <color name="secondaryText">#757575</color>
+
+    <color name="background">#FCFCFC</color>
+    <color name="lightgrayline">#EDEDED</color>
+    <color name="materialPurple">#7C4DFF</color>
+    <color name="materialYellow">#FFB300</color>
+    <color name="materialGreen">#00BFA5</color>
+    <color name="materialPink">#FF4081</color>
+
+
+    <color name="primaryBack">#FFEB3B</color>
+
+    <color name="Darkpink">#C2185B</color>
+    <color name="Primarypink">#E91E63</color>
+
+    <color name="Darkgreen">#00796B</color>
+    <color name="Primarygreen">#009688</color>
+
+    <color name="Darkpurple">#512DA8</color>
+    <color name="Primarypurple">#673AB7</color>
+
+    <color name="Curdpurple">#7986cb</color>
+
+</resources>
