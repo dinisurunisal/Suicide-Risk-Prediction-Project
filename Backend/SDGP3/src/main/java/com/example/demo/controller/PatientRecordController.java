@@ -15,7 +15,7 @@ public class PatientRecordController {
     @Autowired
     private PatientRecordService recordService;
 
-    @RequestMapping("/create")
+    @RequestMapping("/createpr")
     public String create(@RequestParam String NIC, int recNum, String name, int age, char gender, int phoneNumber, Date day, Date month, Date year, String religion, String race, String occupation, String civilStatus, String educationalLevel, String reason, boolean lifeTimePsychiatricHospitalizations, boolean pastSuicideAttempts, boolean anySuicidalThoughts, boolean selfInjuriousBehaviour, String psychiatricDisorders, boolean pastIllness, String alcoholConsumption, boolean anger, boolean sleepProblem, boolean socialIsolation, boolean sad, boolean humiliated) {
         PatientRecord r = recordService.create(NIC,recNum,name,age,gender,phoneNumber,day,month,year,religion,race,occupation,civilStatus,educationalLevel,reason,lifeTimePsychiatricHospitalizations,pastSuicideAttempts,anySuicidalThoughts,selfInjuriousBehaviour,psychiatricDisorders,pastIllness,alcoholConsumption,anger,sleepProblem,socialIsolation,sad,humiliated);
         return r.toString();

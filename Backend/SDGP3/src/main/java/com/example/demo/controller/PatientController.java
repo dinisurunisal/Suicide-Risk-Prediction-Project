@@ -14,35 +14,35 @@ public class PatientController {
     @Autowired
     private PatientService patientService;
 
-    @RequestMapping("/create")
+    @RequestMapping("/createp")
     public String create(@RequestParam int age, @RequestParam char gender, @RequestParam String name, @RequestParam int phoneNumber, @RequestParam String NIC) {
         Patient p = patientService.create(age,gender,name,phoneNumber,NIC);
         return p.toString();
     }
 
-    @RequestMapping("/get")
+    @RequestMapping("/getp")
     public Patient getPatients(@RequestParam String NIC) {
         return patientService.getByNIC(NIC);
     }
 
-    @RequestMapping("/getAll")
+    @RequestMapping("/getAllp")
     public List<Patient> getAll(){
         return patientService.getAll();
     }
 
-    @RequestMapping("/update")
+    @RequestMapping("/updateP")
     public String update(@RequestParam String NIC,@RequestParam String name,@RequestParam int age,@RequestParam  char gender,@RequestParam int phoneNumber) {
         Patient p = patientService.update(NIC,name,age,gender,phoneNumber);
         return p.toString();
     }
 
-    @RequestMapping("/delete")
+    @RequestMapping("/deletep")
     public String delete(@RequestParam String NIC) {
         patientService.delete(NIC);
         return"Deleted "+NIC;
     }
 
-    @RequestMapping("/deleteAll")
+    @RequestMapping("/deleteAllp")
     public String deleteAll() {
         patientService.deleteAll();
         return "Deleted all records";

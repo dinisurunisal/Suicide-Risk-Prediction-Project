@@ -23,7 +23,7 @@ public class DoctorController {
 
 
 
-    @RequestMapping("/create")
+    @RequestMapping("/created")
     public String create(@RequestParam String doctorLicenceId,int age, char gender, String name, String currentCity, int phoneNumber, String currentHospital,  String email) {
         Doctor d =  doctorService.create(doctorLicenceId,age,gender,name,currentCity,phoneNumber,currentHospital,email);
         return d.toString();
@@ -31,13 +31,13 @@ public class DoctorController {
 
 
 
-    @RequestMapping("/update")
+    @RequestMapping("/updated")
     public String update(@RequestParam String doctorLicenceId,int age, char gender, String name, String currentCity, int phoneNumber, String currentHospital,  String email) {
         Doctor d = doctorService.update(doctorLicenceId,age,gender,name,currentCity,phoneNumber,currentHospital,email);
         return d.toString();
     }
 
-    @RequestMapping("/delete")
+    @RequestMapping("/deleted")
     public String delete(@RequestParam String doctorLicenceId) {
         doctorService.delete(doctorLicenceId);
         return"Deleted "+doctorLicenceId;

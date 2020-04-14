@@ -1,11 +1,14 @@
 package com.example.demo.model;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 
 @Document(collection = "PatientRecords")
 public class PatientRecord extends Patient{
+
+
 
     //to get the suicide risk of a patient we need to get these information
     private int recNum;

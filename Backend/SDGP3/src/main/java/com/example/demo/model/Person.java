@@ -8,10 +8,10 @@ public class Person {
 
     @Id
     String id;
-    private int age; //age
-    private char gender;//gender
-    private String name;
-    private int phoneNumber;
+    int age; //age
+    char gender;//gender
+    String name;
+    int phoneNumber;
 
     public Person(int age, char gender, String name, int phoneNumber) {
         this.age = age;

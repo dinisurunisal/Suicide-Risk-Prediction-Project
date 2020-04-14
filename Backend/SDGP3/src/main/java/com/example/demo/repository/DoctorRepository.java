@@ -7,6 +7,6 @@ import com.example.demo.model.Doctor;
 
 @Repository
 public interface DoctorRepository extends MongoRepository <Doctor,String> {
-    public Doctor findByID(String doctorLicenceId );
+    public Doctor findByDoctorLicenceId(String doctorLicenceId );
 
 }

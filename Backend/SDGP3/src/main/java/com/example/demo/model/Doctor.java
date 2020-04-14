@@ -1,11 +1,15 @@
 package com.example.demo.model;
 
-public class Doctor extends Person{
-    private String doctorLicenceId;
-    private String currentCity;
-    private int phoneNumber;
-    private String currentHospital;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document
+public class Doctor extends Person{
+
+
+    String doctorLicenceId;
+    String currentCity;
+    String currentHospital;
     private String email;
     private String password;
     private String confirmPassword;
@@ -25,7 +29,6 @@ public class Doctor extends Person{
         super(age, gender, name, phoneNumber);
         this.doctorLicenceId = doctorLicenceId;
         this.currentCity = currentCity;
-        this.phoneNumber = phoneNumber;
         this.currentHospital = currentHospital;
         this.email = email;
     }
@@ -43,9 +46,6 @@ public class Doctor extends Person{
         this.currentCity = currentCity;
     }
 
-    public int getPhoneNumber() {
-        return phoneNumber;
-    }
 
     public void setPhoneNumber(int phoneNumber) {
         this.phoneNumber = phoneNumber;

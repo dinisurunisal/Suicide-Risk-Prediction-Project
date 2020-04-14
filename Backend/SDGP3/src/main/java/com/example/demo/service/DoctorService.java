@@ -18,13 +18,13 @@ public class DoctorService {
 
     //delete a doctor account
     public void delete(String doctorLicenceId ) {
-        Doctor doctor = docRepo.findByID(doctorLicenceId );
+        Doctor doctor = docRepo.findByDoctorLicenceId(doctorLicenceId );
         docRepo.delete(doctor);
     }
 
     //update patient account
     public Doctor update(String doctorLicenceId,int age, char gender, String name, String currentCity, int phoneNumber, String currentHospital,  String email) {
-        Doctor doctor = docRepo.findByID(doctorLicenceId);
+        Doctor doctor = docRepo.findByDoctorLicenceId(doctorLicenceId);
         doctor.setDoctorLicenceId(doctorLicenceId);
         doctor.setAge(age);
         doctor.setGender(gender);

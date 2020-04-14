@@ -6,9 +6,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Patient extends Person {
 
-    @Id
-    String id;
-    private String NIC;
+
+
+    String NIC;
 
     public Patient(int age, char gender, String name, int phoneNumber, String NIC) {
         super(age, gender, name, phoneNumber);
