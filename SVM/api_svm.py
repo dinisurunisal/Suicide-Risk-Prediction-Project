@@ -7,7 +7,7 @@ from flask_restful import Api, Resource
 app = Flask(__name__)
 api = Api(app)
 
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('model1.pkl', 'rb'))
 
 
 class MakePrediction(Resource):
