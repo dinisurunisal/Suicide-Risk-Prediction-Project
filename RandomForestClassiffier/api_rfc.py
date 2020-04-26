@@ -2,9 +2,12 @@ import os
 import pickle
 
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 from flask_restful import Api, Resource
 
 app = Flask(__name__)
+# enable CORS
+#CORS(app, resources={r'/*': {'origins': '*'}})
 api = Api(app)
 
 model = pickle.load(open('model.pkl', 'rb'))
