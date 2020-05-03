@@ -1,0 +1,6 @@
+{
+    "env":{
+      "PORT": 8000,
+      "JWT_KEY": "demonslayer"
+    }
+  }
