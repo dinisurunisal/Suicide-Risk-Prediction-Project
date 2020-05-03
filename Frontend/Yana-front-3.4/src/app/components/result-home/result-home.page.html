@@ -1,0 +1,124 @@
+<ion-content class="content">
+  <ion-card>
+    <ion-item no-padding no-margin>
+      <ion-label class="nics">
+        <ion-icon name="arrow-back-outline" class="nics" id="back"
+          (click)="back(patientRecordDetails['patientId'],patientRecordDetails['NIC'])">
+        </ion-icon>
+      </ion-label>
+    </ion-item>
+  </ion-card>
+
+  <ion-card *ngFor="let patientRecordDetails of patientRecordDetails">
+    <ion-card-content class="pred-text">
+      <b>
+        {{patientRecordDetails['result']}}
+      </b>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- <ion-card class="info">
+    <ion-card-header>
+      <ion-card-content>
+        <p class="title">Suicide prevention lifelines</p>
+      </ion-card-content>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col class="col-values">
+            Sumithrayo
+          </ion-col>
+          <ion-col class="col-values">
+            0112 696 666
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="col-values">
+            CCCline
+          </ion-col>
+          <ion-col class="col-values">
+            1333
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="col-values">
+            NIMH hotline
+          </ion-col>
+          <ion-col class="col-values">
+            1926
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="col-values">
+            Shanthi maargam
+          </ion-col>
+          <ion-col class="col-values">
+            071 7639898
+          </ion-col>
+        </ion-row>
+        
+        <ion-row>
+          <ion-col class="col-values">
+            National Institute of Mental Health
+          </ion-col>
+          <ion-col class="col-values">
+            0112 578 234
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="col-values">
+            Navodaya - Psychological Treatement
+          </ion-col>
+          <ion-col class="col-values">
+            0112 578 234
+          </ion-col>
+        </ion-row>
+       </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+ -->
+  <ion-content>
+    <ion-label>
+      <table class="table table-dark">
+        <tbody>
+          <tr>
+            <td> Sumithrayo</td>
+            <td>0112 696 666</td>
+          </tr>
+          <tr>
+            <td>CCCline</td>
+            <td>1333</td>
+          </tr>
+          <tr>
+            <td>NIMH Hotline</td>
+            <td>1926</td>
+          </tr>
+          <tr>
+            <td>National Institute of mental health</td>
+            <td>0112 578 234</td>
+          </tr>
+          <tr>
+            <td>Navodya Psycological Treatment</td>
+            <td> 0112 578 234</td>
+          </tr>
+        </tbody>
+      </table>
+    </ion-label>
+    <!-- <ion-row class="logo">
+  <ion-col>
+    <img src="assets/img/logo.png" width="40%" class="logo" />
+  </ion-col>
+</ion-row> -->
+  </ion-content>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="stacked" class="notes">Notes</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

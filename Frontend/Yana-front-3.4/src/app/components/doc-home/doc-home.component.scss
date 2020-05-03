@@ -1,0 +1,78 @@
+ion-label {
+    font-family: "kiona" !important;
+}
+.content {
+    height: 100%;
+    background-image: url("../../../assets/img/15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    font-family: "kiona";
+    margin: 20px;
+}
+ion-button {
+    --ion-font-family: "kiona" !important;
+    color: #000;
+    --border-color: #000 !important;
+    font-weight: 700;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    background-color: rgba($color: #000000, $alpha: 0.85);
+    outline: none;
+    color: lightgrey;
+}
+#submit-btn {
+    align-items: center;
+}
+.x {
+    align-content: center;
+}
+ion-searchbar {
+    --background: #fff;
+    font-family: "Kiona";
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 90%;
+    border: 2px black;
+}
+.nics {
+    color: #fff;
+}
+ion-button {
+    --border-color: #fff !important;
+}
+.searchbar-input-container {
+    border-radius: 5px;
+    border: 2px black;
+}
+ion-icon,
+ion-menu-button {
+    color: #000;
+    font-size: 25px;
+}
+
+// ion-button {
+//     --ion-font-family: "kiona" !important;
+//     color: #000;
+//     --border-color: #000 !important;
+//     font-weight: 700;
+// }
+.add-record-btn {
+    margin-top: 2%;
+}
+ion-toolbar {
+    --background: rgba(0, 0, 0, 0);
+}
+.btn-outline-secondary {
+    border: solid white 0.8px;
+}
+ion-item {
+    --border-style: none;
+    padding-left: 2px !important;
+}
