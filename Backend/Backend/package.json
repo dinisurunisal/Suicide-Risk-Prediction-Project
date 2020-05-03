@@ -1,0 +1,21 @@
+{
+  "name": "suicideriskprediction",
+  "version": "1.0.0",
+  "description": "Suicide Risk Prediction Project for SDGP",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Malsha Piumini",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.6",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^1.18.11"
+  }
+}
