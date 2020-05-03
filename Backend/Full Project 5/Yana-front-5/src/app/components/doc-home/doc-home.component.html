@@ -1,0 +1,40 @@
+<ion-content class="content">
+
+  <ion-toolbar>
+    <ion-searchbar [(ngModel)]="searchKeyword" (ionInput)="searchPatients($event)">
+    </ion-searchbar>
+
+    <ion-buttons slot="end" class="mr-4 add-record-btn">
+      <ion-icon name="power" (click)="logout()" class="nics"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <ion-item>
+    <ion-label>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="NIC" aria-label="Recipient's username"
+          aria-describedby="basic-addon2" name="NIC" required id="NIC" [(ngModel)]="NIC">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary nics" (click)="addpatient()" type="button">ADD
+          </button>
+        </div>
+      </div>
+    </ion-label>
+  </ion-item>
+
+
+  <ion-card *ngFor="let patient of patients">
+    <ion-item no-padding no-margin>
+      <ion-label class="nics">
+        <b>
+          {{patient['NIC']}}
+        </b>
+      </ion-label>
+      <ion-icon name="trash" (click)="presentConfirm(patient['patientId'])" class="nics"></ion-icon>
+      <ion-button fill="outline" slot="end" (click)="getPatientRecord(patient['patientId'],patient['NIC'])"
+        class="nics">View
+      </ion-button>
+    </ion-item>
+  </ion-card>
+
+</ion-content>

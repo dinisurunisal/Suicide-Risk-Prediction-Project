@@ -1,0 +1,124 @@
+ion-label {
+    font-family: "kiona" !important;
+    font-size: 15px;
+}
+.content {
+    height: 100%;
+    background-image: url("../../../assets/img/30.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    font-family: "kiona";
+    margin: 20px;
+    align-content: center;
+}
+ion-button {
+    --ion-font-family: "kiona" !important;
+    color: #000;
+    --border-color: #000 !important;
+    font-weight: 700;
+}
+.logo {
+    display: block;
+    margin: 0.5% auto;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    background-color: rgba($color: #000000, $alpha: 0.85);
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+#submit-btn {
+    align-items: center;
+}
+.x {
+    align-content: center;
+}
+ion-searchbar {
+    --background: #fff;
+    font-family: "Kiona";
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 90%;
+    border: 2px black;
+}
+.nics {
+    color: #fff;
+    align-content: center;
+}
+ion-button {
+    --border-color: #fff !important;
+}
+.searchbar-input-container {
+    border-radius: 5px;
+    border: 2px black;
+}
+ion-icon,
+ion-menu-button {
+    color: #000;
+    font-size: 25px;
+}
+
+// ion-button {
+//     --ion-font-family: "kiona" !important;
+//     color: #000;
+//     --border-color: #000 !important;
+//     font-weight: 700;
+// }
+.add-record-btn {
+    margin-top: 2%;
+}
+ion-toolbar {
+    --background: rgba(0, 0, 0, 0);
+}
+.btn-outline-secondary {
+    border: solid white 0.8px;
+}
+ion-item {
+    --border-style: none;
+    padding-left: 2px !important;
+}
+ion-label {
+    text-decoration-color: white;
+}
+
+.pred-text {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 0, 0);
+    outline: auto;
+    font-family: "kiona";
+    background-color: transparent;
+}
+
+.info {
+    outline: auto;
+    background-color: rgba($color: #ffffff, $alpha: 0.85);
+    color: rgb(0, 0, 0);
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(58, 18, 18);
+}
+
+.notes {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+}
+table,
+th,
+td {
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    background-color: transparent;
+}

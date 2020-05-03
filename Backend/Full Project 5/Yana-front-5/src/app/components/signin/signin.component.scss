@@ -1,0 +1,99 @@
+.content {
+  height: 100%;
+  background-image: url("../../../assets/img/37.jpg");
+
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: "kiona";
+}
+.logo {
+  display: block;
+  margin: 0.5% auto;
+}
+.list-md.list-inset ion-item:last-child {
+  --border-radius: 0px;
+  --border-width: 0;
+}
+.list-ios.list-inset ion-item {
+  --border-width: 0 0 0 0;
+  --inner-border-width: 0;
+}
+input {
+  font-family: "poppins-regular";
+  background-color: rgba($color: #000000, $alpha: 0.55);
+  color: #fff;
+}
+input[type="text"]:focus {
+  background-color: rgba($color: #000000, $alpha: 0.85);
+  outline: none;
+}
+input[type="password"]:focus {
+  background-color: rgba($color: #000000, $alpha: 0.85);
+  outline: none;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+.credentials {
+  width: 80%;
+  margin: 7px auto;
+}
+.btn-primary {
+  margin-top: 10%;
+  color: #000;
+  background-color: #ffffff !important;
+  border-color: rgba(0, 0, 0, 0.884);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:active:focus {
+  color: #000;
+  background-color: #ffffff !important;
+  border-color: rgba(0, 0, 0, 0.884);
+}
+.register-col {
+  font-size: 10px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.register-btn {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.85);
+}
+.register-btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.error {
+  background-color: rgba($color: #f44336, $alpha: 0.55);
+}
+
+.loading-btn {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-size: 30px;
+}
+
+.loading-btn:hover {
+  background-color: transparent;
+  cursor: default;
+}
+
+.loading-btn:focus {
+  background-color: transparent;
+  cursor: default;
+}
+
+.initial-loading-css {
+  --background: transparent;
+}
