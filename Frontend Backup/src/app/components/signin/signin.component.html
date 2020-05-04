@@ -1,0 +1,51 @@
+<ion-content class="content" force-overscroll="false">
+  <div class="ion-padding">
+    <ion-row class="logo">
+      <ion-col>
+        <img src="assets/img/logo.png" width="40%" class="logo" />
+      </ion-col>
+    </ion-row>
+    <form #signinForm="ngForm">
+      <ion-row>
+        <ion-col>
+          <input type="text" placeholder="E-mail" name="email" required id="email" class="form-control credentials"
+            [(ngModel)]="email" [ngClass]="{ 'error' : isErrorInEmail }" />
+
+          <input type="password" placeholder="Password" name="password" required id="password"
+            class="form-control credentials" [(ngModel)]="password" [ngClass]="{ 'error' : isErrorInPassword }" />
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col class="signin-col">
+          <button *ngIf="!isLoading" ion-button class="submit-btn" full type="submit"
+            [disabled]="!signinForm.form.valid" class="btn btn-primary credentials-btn" (click)="signin()"
+            (keyup.enter)="signin()">
+            Sign In
+          </button>
+
+          <button *ngIf="isLoading" ion-button full type="submit" class="btn btn-primary loading-btn" disabled>
+            <ion-spinner name="crescent" color="success"></ion-spinner>
+          </button>
+
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col class="register-col">
+          New to YANA?
+          <button ion-button class="register-btn" (click)="signup()">
+            Sign Up
+          </button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="register-col">
+          <button ion-button class="register-btn" (click)="forgetPassword()">
+            forgot your password?
+          </button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </div>
+</ion-content>
