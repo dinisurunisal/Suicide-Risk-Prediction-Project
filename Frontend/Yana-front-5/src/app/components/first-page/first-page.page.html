@@ -1,0 +1,51 @@
+<ion-content class="content" force-overscroll="false">
+  <div class="ion-padding">
+    <ion-row class="logo">
+      <ion-col>
+        <img src="assets/img/logo.png" width="40%" class="logo" />
+      </ion-col>
+    </ion-row>
+    <form #signinForm="ngForm">
+      <ion-row>
+        <ion-col>
+          <p class="slide">  Welcome</p>
+          <p class="text-below">  Sri Lanka's First Suicide Risk Prediction System Through Machine Learning</p>
+          <ion-button color="success"  routerLink="/welcome" routerDirection="root">
+           GET STARTED 
+          </ion-button>
+          <br>
+          <ion-button color="danger" routerLink="/signin"  routerDirection="root">  
+          SIGN IN 
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </div>
+</ion-content>
+<!-- <ion-app>
+  <ion-content  fullscreen class="background" scroll-y="false">
+    <ion-slides  pager="true" [options]="slideOpts">
+
+
+
+      <ion-slide>
+        <div class="ion-padding">
+       <ion-row class="logo">
+          <ion-col>
+            <img src="assets/img/logo.png" width="40%" class="logo" />
+          </ion-col>
+        </ion-row>
+      </div>
+          <h2 class="slide">  Welcome!</h2>
+          <ion-button color="success"  routerLink="/welcome" routerDirection="root">
+           GET STARTED 
+          </ion-button>
+          <br>
+          <ion-button color="danger" routerLink="/signin"  routerDirection="root">  
+          SIGN IN 
+          </ion-button>
+      </ion-slide>
+
+    </ion-slides>
+  </ion-content>
+</ion-app> -->

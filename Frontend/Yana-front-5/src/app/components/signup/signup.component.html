@@ -1,0 +1,61 @@
+<ion-content class="content">
+  <div class="ion-padding">
+    <ion-row>
+      <ion-col>
+        <img src="assets/img/logo.png" width="40%" class="logo" />
+      </ion-col>
+    </ion-row>
+    <form #signUpForm="ngForm">
+      <ion-row>
+        <ion-col>
+          <input type="email" placeholder="E-Mail" name="email" required id="email" class="form-control credentials"
+            ngModel [ngClass]="{ 'error' : isErrorInEmail }" />
+
+          <input type="text" placeholder="NIC" name="NIC" required id="NIC" class="form-control credentials" ngModel />
+
+          <input type="text" placeholder="first name" name="firstname" required id="firstname"
+            class="form-control credentials" ngModel />
+
+          <input type="text" placeholder="Phone Number" name="phonenumber" required id="phonenumber"
+            class="form-control credentials" ngModel />
+
+          <textarea placeholder="Address" name="address" required id="address" class="form-control credentials"
+            ngModel></textarea>
+
+          <input type="password" placeholder="Password" name="password" required id="password"
+            class="form-control credentials" ngModel [ngClass]="{ 'error' : isErrorInPassword }" />
+
+          <input type="password" placeholder="Re-Type Password" name="repassword" required id="repassword"
+            class="form-control credentials" ngModel [ngClass]="{ 'error' : isErrorInPassword }" />
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col class="signin-col">
+          <button *ngIf="isLoading === 0" ion-button class="submit-btn" full type="submit"
+            [disabled]="!signUpForm.form.valid" class="btn btn-primary credentials-btn" (click)="signUp(signUpForm)"
+            (keyup.enter)="signUp(signUpForm)">
+            sign Up
+          </button>
+
+          <button *ngIf="isLoading === 1" ion-button full type="submit" class="btn btn-primary loading-btn" disabled>
+            <ion-spinner name="crescent" color="success"></ion-spinner>
+          </button>
+
+          <button *ngIf="isLoading === 2" ion-button full type="submit" class="btn btn-primary loading-btn" disabled>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+          </button>
+
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="register-col">
+          Already Have an Account?
+          <button ion-button class="register-btn" (click)="signin(null)">
+            Sign In
+          </button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </div>
+</ion-content>

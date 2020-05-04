@@ -1,0 +1,102 @@
+<ion-content class="content">
+  <ion-card *ngFor="let patientRecordDetails of patientRecordDetails">
+    <ion-toolbar>
+      <ion-icon name="arrow-back-outline" class="nics" id="back"
+        (click)="back(patientRecordDetails['patientId'],patientRecordDetails['NIC'])" slot="start">
+      </ion-icon>
+    </ion-toolbar>
+
+    <table class="table table-dark">
+      <tr>
+        <td>
+          Result
+        </td>
+        <td>
+          <b>
+            {{patientRecordDetails['result']}}
+          </b>
+        </td>
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td>{{patientRecordDetails['date']}}</td>
+      </tr>
+      <tr>
+        <td>Age</td>
+        <td>{{patientRecordDetails['age']}}</td>
+      </tr>
+      <tr>
+        <td>Religion</td>
+        <td> {{patientRecordDetails['religon']}}</td>
+      </tr>
+      <tr>
+        <td>Race</td>
+        <td>{{patientRecordDetails['race']}}</td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>{{patientRecordDetails['gender']}}</td>
+      </tr>
+      <tr>
+        <td>Civil Status</td>
+        <td>{{patientRecordDetails['civilStatus']}}</td>
+      </tr>
+      <tr>
+        <td>Occupation</td>
+        <td>{{patientRecordDetails['occupation']}}</td>
+      </tr>
+      <tr>
+        <td>Educational Level</td>
+        <td>{{patientRecordDetails['educationalLevel']}}</td>
+      </tr>
+      <tr>
+        <td>Alchohol Consumption</td>
+        <td>{{patientRecordDetails['alcoholConsumption']}}</td>
+      </tr>
+      <tr>
+        <td>Anger</td>
+        <td>{{patientRecordDetails['anger']}}</td>
+      </tr>
+      <tr>
+        <td>Sad Weary</td>
+        <td>{{patientRecordDetails['sad']}}</td>
+      </tr>
+      <tr>
+        <td>Past Illness</td>
+        <td>{{patientRecordDetails['pastIllness']}}</td>
+      </tr>
+      <tr>
+        <td>Social Iscolation</td>
+        <td>{{patientRecordDetails['socialIsolation']}}</td>
+      </tr>
+      <tr>
+        <td>Suicidal Thoughts</td>
+        <td>{{patientRecordDetails['anySuicidalThoughts']}}</td>
+      </tr>
+      <tr>
+        <td>Past Suicidal Attempts</td>
+        <td>{{patientRecordDetails['pastSuicideAttempts']}}</td>
+      </tr>
+      <tr>
+        <td>Sleep Problem</td>
+        <td>{{patientRecordDetails['sleepProblem']}}</td>
+      </tr>
+      <tr>
+        <td>Self Injurious Behaviour</td>
+        <td>{{patientRecordDetails['selfInjuriousBehaviour']}}</td>
+      </tr>
+      <tr>
+        <td>Reason</td>
+        <td>{{patientRecordDetails['psychiatricDisorders']}}</td>
+      </tr>
+      <tr>
+        <td>Psychiatric Hospitalizations</td>
+        <td>{{patientRecordDetails['lifeTimePsychiatricHospitalizations']}}</td>
+      </tr>
+      <tr>
+        <td>Psychiatric Disorders</td>
+        <td>{{patientRecordDetails['psychiatricDisorders']}}</td>
+      </tr>
+    </table>
+  </ion-card>
+</ion-content>

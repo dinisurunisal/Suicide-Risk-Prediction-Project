@@ -1,0 +1,45 @@
+.content {
+    height: 100%;
+    background-image: url("../../../assets/img/34.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "kiona";
+}
+ion-searchbar {
+    --background: #fff;
+    font-family: "Kiona";
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+ion-icon,
+ion-menu-button {
+    color: #000;
+    font-size: 25px;
+}
+ion-toolbar {
+    --background: rgba(0, 0, 0, 0);
+}
+
+ion-button {
+    --ion-font-family: "kiona" !important;
+    color: #000;
+    --border-color: #000 !important;
+    font-weight: 700;
+}
+.add-record-btn {
+    margin-top: 2%;
+}
+table,
+th,
+td {
+    //border: 1px solid #76d7c4;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba($color: #34495e, $alpha: 0.55);
+}
+.nics {
+    color: #fff;
+}

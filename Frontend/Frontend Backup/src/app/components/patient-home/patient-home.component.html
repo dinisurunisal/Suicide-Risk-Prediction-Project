@@ -1,0 +1,32 @@
+<ion-content class="content">
+
+  <div padding>
+    <ion-toolbar>
+      <ion-icon name="arrow-back-outline" class="nics" id="back" (click)="back()" slot="start"></ion-icon>
+      <ion-searchbar [(ngModel)]="searchKeyword" slot="secondary"></ion-searchbar>
+      <!--(ionChange)="searchLocation()" -->
+      <ion-buttons slot="end" class="mr-4 add-record-btn">
+        <ion-icon name="add-circle-outline" id="add" class="nics" (click)="addPatientRecord()"></ion-icon>
+
+      </ion-buttons>
+    </ion-toolbar>
+  </div>
+
+
+
+  <ion-card *ngFor=" let patientrecords of patientRecords">
+    <ion-item>
+      <ion-label class="nics"><b>
+          Record {{patientrecords['recordID']}}
+        </b></ion-label>
+
+      <ion-icon name="trash" class="nics" (click)="presentConfirm(patientrecords['recordID'])"></ion-icon>
+
+      <ion-button fill="outline" slot="end" class="nics" (click)="getPatientRecordsDetails(patientrecords['recordID'])">
+        View
+      </ion-button>
+
+    </ion-item>
+  </ion-card>
+
+</ion-content>

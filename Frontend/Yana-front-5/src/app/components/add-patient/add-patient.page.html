@@ -1,0 +1,324 @@
+<ion-content class="content">
+  <!-- <ion-icon name="arrow-back-outline" class="nics" id="back" (click)="back()"> -->
+
+  <form #recordAdd="ngForm" class="recordAddCls">
+    <ion-row>
+      <ion-col>
+        <ion-list-header>
+          <ion-label>Age</ion-label>
+        </ion-list-header>
+        <input type="text" placeholder="Age" name="Age" required id="Age" class="form-control credentials" ngModel />
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <ion-list-header>
+            <ion-label>Gender</ion-label>
+          </ion-list-header>
+          <ion-item>
+            <select value="0" okText="Okay" cancelText="Dismiss" name="Gender" required id="gender" ngModel='0'
+              class="form-control">
+              <option value="0">Male</option>
+              <option value="1">Female</option>
+            </select>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-list-header>
+      <ion-label>Religion</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <select value="0" okText="Okay" cancelText="Dismiss" name="Religion" required id="religion" ngModel='0'
+        class="form-control">
+        <option value="0">Buddhist</option>
+        <option value="1">Christian</option>
+        <option value="2">Hindu</option>
+        <option value="3">Islam</option>
+        <option value="4">Other</option>
+      </select>
+    </ion-item>
+
+    <ion-list-header>
+      <ion-label>Race</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <select value="3" okText="Okay" cancelText="Dismiss" name="Race" required id="race" ngModel='3'
+        class="form-control">
+        <option value="3">Sinhalese</option>
+        <option value="1">Muslim</option>
+        <option value="0">Burger</option>
+        <option value="4">Tamil</option>
+        <option value="2">Other</option>
+      </select>
+    </ion-item>
+
+    <ion-list-header>
+      <ion-label>Civil Status</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <select class="form-control" value="2" okText="Okay" cancelText="Dismiss" name="Civil_Status" required
+        id="civilstatus" ngModel='2'>
+        <option value="0"> Divourced </option>
+        <option value="1"> Married </option>
+        <option value="2"> Unmarried </option>
+        <option value="3"> Widow </option>
+      </select>
+    </ion-item>
+
+    <ion-list-header>
+      <ion-label>Occupation</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <select class="form-control" value="3" okText="Okay" cancelText="Dismiss" name="Nature_Of_Occupation" required
+        id="occupation" ngModel='7'>
+        <option value="0"> Administrative, Executive & Managerial </option>
+        <option value="1"> Farming, fishing & forestry workers </option>
+        <option value="2"> Armed Services </option>
+        <option value="3"> Clerical & related workers </option>
+        <option value="4"> Pensioner </option>
+        <option value="5"> Police </option>
+        <option value="6"> Clarical workers. </option>
+        <option value="7"> Professional Workers. </option>
+        <option value="8"> Sales workers </option>
+        <option value="9"> Security Personnel </option>
+        <option value="10"> Cooks/ Tailors/ Barbers/ etc... </option>
+        <option value="11"> Student </option>
+        <option value="12"> Unemployed Persons </option>
+        <option value="13"> Not Mentioned </option>
+      </select>
+    </ion-item>
+
+
+    <ion-list-header>
+      <ion-label>Education Level</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <select class="form-control" value="3" okText="Okay" cancelText="Dismiss" name="Education_Level" required
+        id="educationlevel" ngModel='2'>
+        <option selected value="0"> From Grade 1 to 7 </option>
+        <option value="4"> Passed Grade 8 </option>
+        <option value="3"> Passed G.C.E (O/L) </option>
+        <option value="2"> Passed G.C.E (A/L) </option>
+        <option value="6"> University Degree or above </option>
+        <option value="1"> Other </option>
+        <option value="5"> School Not Attended </option>
+      </select>
+    </ion-item>
+
+
+    <ion-list-header>
+      <ion-label>Suspected Reason ( if mentioned )</ion-label>
+    </ion-list-header>
+    <ion-item>
+      <select class="form-control" value="3" okText="Okay" cancelText="Dismiss" name="Reason" required id="reason"
+        ngModel='10'>
+        <option value="0"> Addiction to narcotic drugs </option>
+        <option selected value="1"> Due to death parents/relations </option>
+        <option value="2"> Chronic diseases & Physical disabilities </option>
+        <option value="3"> Economic problems </option>
+        <option value="4"> Employment problems </option>
+        <option value="5"> Failure at the examination </option>
+        <option value="6"> Harrasment by a family member </option>
+        <option value="7"> Ill-treatment by the children </option>
+        <option value="8"> Loss of property </option>
+        <option value="9"> Mental Disorders </option>
+        <option value="10"> None </option>
+        <option value="11"> Other Reasons </option>
+        <option value="12"> Problems caused with the elders </option>
+        <option value="13"> Sexual incapacity </option>
+        <option value="14"> Problems with love affairs </option>
+      </select>
+    </ion-item>
+
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Lifetime Psychiatric Hospitalizations</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <select value="0" okText="Okay" cancelText="Dismiss" name="Lifetime_Psychiatric_Hospitalizations" required
+          id="psychiatrichospitalizations" ngModel='0' class="form-control">
+          <option value="0">Haven't</option>
+          <option value="1">Have</option>
+        </select>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Past Suicide Attempts</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <select value="0" okText="Okay" cancelText="Dismiss" name="Past_Suicide_Attempts" required id="pastsuicides"
+          ngModel='0' class="form-control">
+          <option value="0">Haven't</option>
+          <option value="1">Have</option>
+        </select>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Any Suicidal thoughts mentioned</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <select value="0" okText="Okay" cancelText="Dismiss" name="Any_suicidal_thoughts_mentioned" required
+          id="suicidalThoughts" ngModel='0' class="form-control">
+          <option value="0">Haven't</option>
+          <option value="1">Have</option>
+        </select>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Self Injurious Behaviour </ion-label>
+      </ion-list-header>
+      <ion-item>
+        <select value="0" okText="Okay" cancelText="Dismiss" name="Self_Injurious_Behaviour" required
+          id="selfInjuriousBehaviour" ngModel='0' class="form-control">
+          <option value="0">Haven't</option>
+          <option value="1">Have</option>
+        </select>
+      </ion-item>
+    </ion-list>
+
+    <ion-list-header>
+      <ion-label> Psychiatric Disorders </ion-label>
+    </ion-list-header>
+    <ion-item>
+      <select class="form-control" value="3" okText="Okay" cancelText="Dismiss" name="Psychiatric_Disorders" required
+        id="disorders" ngModel='3'>
+        <option selected value="0"> BPD </option>
+        <option value="1"> Bipolar Disorder </option>
+        <option value="2"> Depression </option>
+        <option value="3"> None </option>
+        <option value="4"> Other </option>
+        <option value="5"> PTSD </option>
+        <option value="6"> Schizophrenia </option>
+      </select>
+    </ion-item>
+
+    <ion-list-header>
+      <ion-label> Past Illnesses </ion-label>
+    </ion-list-header>
+    <ion-item>
+      <select class="x" value="9" okText="Okay" cancelText="Dismiss" name="Past_Illnesses" required id="pastillneses"
+        ngModel='9' class="form-control">
+        <option selected value="0"> Asthma </option>
+        <option value="1"> COPD </option>
+        <option value="2"> Cancer </option>
+        <option value="3"> Chronic pain </option>
+        <option value="4">Diabetes </option>
+        <option value="5"> HIV/AIDS </option>
+        <option value="6"> Heart Diseases </option>
+        <option value="7"> Kidney Disease </option>
+        <option value="8"> Other </option>
+        <option value="9"> None </option>
+      </select>
+    </ion-item>
+
+    <ion-list-header>
+      <ion-label> Alcohol/ drug Consumption </ion-label>
+    </ion-list-header>
+    <ion-item>
+      <select class="x" value="2" okText="Okay" cancelText="Dismiss" name="Alcohol_drug_Consumption" required
+        id="alchohol" ngModel='2' class="form-control">
+        <option selected value="0"> Frequent </option>
+        <option value="1"> Moderate </option>
+        <option value="2"> None </option>
+      </select>
+    </ion-item>
+
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Anger problems</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <select value="0" okText="Okay" cancelText="Dismiss" name="Anger" required id="anger" ngModel='0'
+          class="form-control">
+          <option value="0">Haven't</option>
+          <option value="1">Have</option>
+        </select>
+      </ion-item>
+    </ion-list>
+
+
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Sleep Problems </ion-label>
+      </ion-list-header>
+      <ion-item>
+        <select value="0" okText="Okay" cancelText="Dismiss" name="Sleep_Problem" required id="sleepProblem" ngModel='0'
+          class="form-control">
+          <option value="0">Haven't</option>
+          <option value="1">Have</option>
+        </select>
+      </ion-item>
+    </ion-list>
+
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Social Iscolation </ion-label>
+      </ion-list-header>
+      <ion-item>
+        <select value="0" okText="Okay" cancelText="Dismiss" name="Social_Iscolation" required id="socialiscolation"
+          ngModel='0' class="form-control">
+          <option value="0">Haven't</option>
+          <option value="1">Have</option>
+        </select>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Sad or Weary conditions </ion-label>
+      </ion-list-header>
+      <ion-item>
+        <select value="0" okText="Okay" cancelText="Dismiss" name="Sad_Weary" required id="sad" ngModel='0'
+          class="form-control">
+          <option value="0">Haven't</option>
+          <option value="1">Have</option>
+        </select>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Humilated Conditions </ion-label>
+      </ion-list-header>
+      <ion-item>
+        <select value="0" okText="Okay" cancelText="Dismiss" name="Humilated" required id="humilated" ngModel='0'
+          class="form-control">
+          <option value="0">Haven't</option>
+          <option value="1">Have</option>
+        </select>
+      </ion-item>
+    </ion-list>
+
+    <ion-item>
+      <ion-label>
+
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary nics" (click)="addpatientRecord(recordAdd)"
+            type="button">ADD</button>
+        </div>
+        <br>
+
+        <div class="input-group-append">
+          <input type="reset" class="btn btn-outline-secondary nics" value="Reset">
+        </div>
+      </ion-label>
+    </ion-item>
+
+  </form>
+
+</ion-content>

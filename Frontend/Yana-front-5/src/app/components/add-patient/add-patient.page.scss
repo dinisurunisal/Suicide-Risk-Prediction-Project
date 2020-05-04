@@ -1,0 +1,140 @@
+.content {
+    height: 100%;
+    //background-image: url("../../../assets/img/28.png");
+    background-image: url("../../../assets/img/30.jpg");
+    //  background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "kiona";
+}
+.recordAddCls,
+ion-label,
+ion-select {
+    font-size: 14px;
+    color: #fff !important;
+    font-family: "kiona";
+}
+.logo {
+    display: block;
+    margin: 0.5% auto;
+}
+.list-md.list-inset ion-item:last-child {
+    --border-radius: 0px;
+    --border-width: 0;
+}
+.list-ios.list-inset ion-item {
+    --border-width: 0 0 0 0;
+    --inner-border-width: 0;
+}
+input {
+    font-family: "kiona";
+    background-color: rgba($color: #f8f5f5, $alpha: 0.55);
+    color: rgb(7, 7, 7);
+}
+input[type="text"]:focus {
+    background-color: rgba($color: #f3f2f2, $alpha: 0.85);
+    outline: none;
+    width: 80%;
+    margin: 7px auto;
+}
+
+input[type="select"]:focus {
+    background-color: rgba($color: #000000, $alpha: 0.85);
+    outline: none;
+    font-family: "kiona";
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+.credentials {
+    width: 80%;
+    margin: 7px auto;
+}
+.btn-primary {
+    margin-top: 10%;
+    color: #000;
+    background-color: #ffffff !important;
+    border-color: rgba(0, 0, 0, 0.884);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:active:focus {
+    color: #000;
+    background-color: #ffffff !important;
+    border-color: rgba(0, 0, 0, 0.884);
+}
+.register-col {
+    font-size: 10px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.credentials {
+    width: 80%;
+    margin: 7px auto;
+}
+
+.register-btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.85);
+}
+.register-btn:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.error {
+    background-color: rgba($color: #f44336, $alpha: 0.55);
+}
+
+.loading-btn {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+.loading-btn:hover {
+    background-color: transparent;
+    cursor: default;
+}
+
+.loading-btn:focus {
+    background-color: transparent;
+    cursor: default;
+}
+
+.initial-loading-css {
+    --background: transparent;
+}
+ion-item {
+    --border-style: none;
+    padding-left: 2px !important;
+}
+
+.form-control {
+    font-size: 14px;
+    color: black !important;
+    font-family: "kiona";
+    background-color: rgba($color: #f8f5f5, $alpha: 0.55);
+    width: 80%;
+    margin: 7px auto;
+}
+
+.btn-outline-secondary {
+    border: solid white 0.8px;
+}
+.nics {
+    color: #fff;
+}
+#back {
+    padding-left: 20px;
+    padding-top: 20px;
+}
